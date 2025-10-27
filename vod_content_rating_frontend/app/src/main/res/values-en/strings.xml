@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Content Rating</string>
+
+    <!-- Navigation and Titles -->
+    <string name="title_indice">Prototype Index</string>
+    <string name="title_instrucciones">Instructions</string>
+    <string name="title_playback">Playback</string>
+
+    <!-- Índice content -->
+    <string name="indice_intro_title">Content Rating entry and exit</string>
+    <string name="indice_intro_body">Prototype goal: Observe entering the Content Rating screen and returning to full-screen playback.\nKeys to navigate: ↑ Enter</string>
+    <string name="indice_cta1">Start prototype 1</string>
+    <string name="indice_cta2">Start prototype 2</string>
+    <string name="indice_cta3">Start prototype 3</string>
+    <string name="indice_cta_hint">Tap the button to see the interactions described in the script.</string>
+
+    <!-- Instrucciones content -->
+    <string name="instrucciones_howto">How to use these prototypes?</string>
+    <string name="instrucciones_steps">1) The index lists instructions and links.\n2) Tap the link of the prototype you want.\n3) Make the suggested adjustments before starting.\n\nTo restart, use the Restart button.</string>
+    <string name="instrucciones_acknowledge">I have read and understand</string>
+    <string name="instrucciones_proceed">Proceed</string>
+    <string name="instrucciones_ack_hint">Confirm you have read the instructions to continue.</string>
+
+    <!-- Accessibility -->
+    <string name="accessibility_logo">Logo</string>
+    <string name="accessibility_illustration">Illustration</string>
+    <string name="accessibility_action_start">Start</string>
+
+    <!-- Errors / empty -->
+    <string name="error_missing_content">No content information found.</string>
+
+    <!-- Content rating details (placeholder example) -->
+    <string name="rating_title">Content Rating</string>
+    <string name="rating_description">This content may include violence or strong language. Viewer discretion is advised.</string>
+</resources>

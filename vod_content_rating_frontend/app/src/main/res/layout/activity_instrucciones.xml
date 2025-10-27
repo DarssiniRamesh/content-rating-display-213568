@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/eg_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/instruccionesHeader"
+            style="@style/EG.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/instrucciones_howto"
+            android:paddingBottom="12dp" />
+
+        <!-- Rating details card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/eg_surface"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:elevation="2dp">
+
+            <TextView
+                android:id="@+id/ratingTitle"
+                style="@style/EG.Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rating_title" />
+
+            <TextView
+                android:id="@+id/ratingDescription"
+                style="@style/EG.Body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rating_description"
+                android:paddingTop="4dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/instruccionesSteps"
+            style="@style/EG.Body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/instrucciones_steps"
+            android:paddingTop="16dp" />
+
+        <CheckBox
+            android:id="@+id/checkboxAcknowledge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/instrucciones_acknowledge"
+            android:paddingTop="16dp" />
+
+        <Button
+            android:id="@+id/buttonProceed"
+            style="@style/EG.Button.Primary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/instrucciones_proceed"
+            android:layout_marginTop="12dp"
+            android:contentDescription="@string/instrucciones_ack_hint" />
+    </LinearLayout>
+</ScrollView>
