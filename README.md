@@ -1,1 +1,3 @@
-# content-rating-display-213568
+# Project Repository
+
+This is the initial README file for the project.
