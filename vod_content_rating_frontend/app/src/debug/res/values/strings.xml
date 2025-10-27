@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="debug_home_shortcut_title">Debug Home Shortcut</string>
+    <string name="debug_home_shortcut_title" translatable="false">Debug Home Shortcut</string>
+    <string name="debug_home_shortcut_desc" translatable="false">Quickly open the app home in debug mode</string>
 </resources>

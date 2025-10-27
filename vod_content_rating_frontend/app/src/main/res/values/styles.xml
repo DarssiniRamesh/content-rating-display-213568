@@ -1,31 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.ExecutiveGray" parent="android:Theme.Material.Light.NoActionBar">
+    <style name="Theme.ExecutiveGray" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/eg_primary</item>
+        <item name="colorPrimaryContainer">@color/eg_accent</item>
+        <item name="colorOnPrimary">@color/eg_on_accent</item>
+        <item name="colorSecondary">@color/eg_secondary</item>
         <item name="android:statusBarColor">@color/eg_primary</item>
         <item name="android:navigationBarColor">@color/eg_primary</item>
         <item name="android:windowBackground">@color/eg_background</item>
-        <item name="android:colorBackground">@color/eg_background</item>
         <item name="android:textColor">@color/eg_text</item>
     </style>
 
-    <style name="EG.Title">
-        <item name="android:textSize">22sp</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textColor">@color/eg_text</item>
-    </style>
-
-    <style name="EG.Body">
-        <item name="android:textSize">16sp</item>
-        <item name="android:textColor">@color/eg_text</item>
-    </style>
-
-    <!-- Updated to use drawable for consistent rounded background -->
-    <style name="EG.Button.Primary">
-        <item name="android:background">@drawable/btn_primary_background</item>
-        <item name="android:textColor">@color/eg_on_accent</item>
-        <item name="android:padding">12dp</item>
-    </style>
-
-    <style name="EG.Card">
-        <item name="android:background">@color/eg_surface</item>
+    <style name="Widget.Executive.Button.Primary" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/eg_primary</item>
+        <item name="android:textColor">@color/eg_surface</item>
     </style>
 </resources>

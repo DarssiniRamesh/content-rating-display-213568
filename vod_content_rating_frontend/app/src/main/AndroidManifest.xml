@@ -3,68 +3,16 @@
     <application
         android:allowBackup="true"
         android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
         android:theme="@style/Theme.ExecutiveGray">
-
-        <!-- Playback placeholder (full-screen) -->
         <activity
-            android:name=".ui.PlaybackActivity"
-            android:exported="false" />
-
-        <!-- Instrucciones -->
-        <activity
-            android:name=".ui.InstruccionesActivity"
-            android:exported="false" />
-
-        <!-- Índice (primary launcher) -->
-        <activity
-            android:name=".ui.IndiceActivity"
+            android:name=".ui.MainActivity"
             android:exported="true">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
-        <!-- Post-Playback Rating screen -->
-        <activity
-            android:name=".ui.PostPlaybackRatingActivity"
-            android:exported="false"
-            android:label="@string/post_playback_rating_title" />
-
-        <!-- Skip rating fallback -->
-        <activity
-            android:name=".ui.SkipRatingActivity"
-            android:exported="false" />
-
-        <!-- Vcard placeholder -->
-        <activity
-            android:name=".ui.VcardActivity"
-            android:exported="false" />
-
-        <!-- About screen -->
-        <activity
-            android:name=".ui.AboutActivity"
-            android:exported="false" />
-
-        <!-- Deep link launcher to Rating screen -->
-        <activity
-            android:name=".ui.DeepLinkLauncherActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-                <category android:name="android.intent.category.BROWSABLE"/>
-                <data android:scheme="app" android:host="rating" android:path="/show"/>
-            </intent-filter>
-        </activity>
-
-        <!-- Secondary QA launcher to assist discovery tools -->
-        <activity
-            android:name=".ui.QALauncherActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.INFO" />
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
     </application>

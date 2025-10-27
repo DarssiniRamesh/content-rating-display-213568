@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Debug-specific manifest; keep it minimal and aligned with main -->
     <application>
-        <activity
-            android:name="org.example.app.ui.AltLauncherActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
-        </activity>
-
-        <activity
-            android:name="org.example.app.ui.HomeShortcutActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
-        </activity>
+        <!-- No extra debug-only activities declared -->
     </application>
 </manifest>

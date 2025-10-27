@@ -1,55 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Calificador de Contenidos</string>
-
-    <!-- Navigation and Titles -->
-    <string name="title_indice">Índice de prototipos</string>
-    <string name="title_instrucciones">Instrucciones</string>
-    <string name="title_playback">Reproducción</string>
-
-    <!-- Índice content -->
-    <string name="indice_intro_title">Entrada y salida de calificador de contenidos</string>
-    <string name="indice_intro_body">Objetivo del prototipo: Observar la entrada al Calificador de contenidos y regreso a reproducción a pantalla completa.\nTeclas para navegar: ↑ Enter</string>
-    <string name="indice_cta1">Iniciar prototipo 1</string>
-    <string name="indice_cta2">Iniciar prototipo 2</string>
-    <string name="indice_cta3">Iniciar prototipo 3</string>
-    <string name="indice_cta_hint">Pulsa el botón para visualizar las interacciones del guión.</string>
-
-    <!-- Instrucciones content -->
-    <string name="instrucciones_howto">¿Cómo consumir estos prototipos?</string>
-    <string name="instrucciones_steps">1) En el índice se encuentran las instrucciones y links a cada prototipo.\n2) Presiona el link del prototipo que quieres usar.\n3) Realiza los ajustes indicados antes de iniciar.\n\nPara reiniciar, utiliza el botón Restart.</string>
-    <string name="instrucciones_acknowledge">He leído y comprendo</string>
-    <string name="instrucciones_proceed">Continuar</string>
-    <string name="instrucciones_ack_hint">Confirma que has leído las instrucciones para continuar.</string>
-
-    <!-- Accessibility -->
-    <string name="accessibility_logo">Logotipo</string>
-    <string name="accessibility_illustration">Ilustración</string>
-    <string name="accessibility_action_start">Iniciar</string>
-
-    <!-- Errors / empty -->
-    <string name="error_missing_content">No se encontró información del contenido.</string>
-
-    <!-- Content rating details (placeholder example) -->
-    <string name="rating_title">Clasificación de contenido</string>
-    <string name="post_playback_rating_title">Calificación post reproducción</string>
-    <string name="rating_description">Este contenido puede incluir violencia o lenguaje fuerte. Se recomienda discreción del espectador.</string>
-
-    <!-- Post-Playback Rating -->
-    <string name="rating_invite">¿Qué te pareció este video?</string>
-    <string name="rating_like">Me gusta</string>
-    <string name="rating_love">Me encanta</string>
-    <string name="rating_dislike">No me gusta</string>
-    <string name="rating_close">Cerrar</string>
-    <string name="rating_title_missing_key">content_title</string>
-    <string name="rating_invite_missing_key">invitation_copy</string>
-
-    <!-- Playback info formatting -->
-    <string name="playback_ack_label">Ack</string>
-
-    <!-- Menu -->
-    <string name="menu_overflow">Más opciones</string>
-    <string name="menu_about">Acerca de</string>
-
-    <!-- QA helpers -->
-    <string name="vcard_title">Vcard</string>
+    <string name="app_name">VOD Content Rating</string>
+    <string name="vod_title_placeholder">Example Movie Title</string>
+    <string name="rating_label_pg13">PG-13</string>
+    <string name="rating_description_pg13">Parents Strongly Cautioned. Some material may be inappropriate for children under 13.</string>
+    <string name="acknowledge">Acknowledge</string>
+    <string name="acknowledged">Acknowledged</string>
+    <string name="content_rating_icon">Content rating shield icon</string>
+    <string name="acknowledged_note">You may now proceed to playback.</string>
 </resources>

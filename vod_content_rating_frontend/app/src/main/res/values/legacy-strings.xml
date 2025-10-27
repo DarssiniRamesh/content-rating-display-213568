@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_action_start" translatable="false">Start</string>
+    <string name="accessibility_illustration" translatable="false">Illustration</string>
+    <string name="accessibility_logo" translatable="false">Logo</string>
+    <string name="error_missing_content" translatable="false">Missing content</string>
+    <string name="indice_cta1" translatable="false">Option 1</string>
+    <string name="indice_cta2" translatable="false">Option 2</string>
+    <string name="indice_cta3" translatable="false">Option 3</string>
+    <string name="indice_cta_hint" translatable="false">Choose an option</string>
+    <string name="indice_intro_body" translatable="false">Intro body</string>
+    <string name="indice_intro_title" translatable="false">Intro title</string>
+    <string name="instrucciones_ack_hint" translatable="false">Acknowledge hint</string>
+    <string name="instrucciones_acknowledge" translatable="false">Acknowledge</string>
+    <string name="instrucciones_howto" translatable="false">How to</string>
+    <string name="instrucciones_proceed" translatable="false">Proceed</string>
+    <string name="instrucciones_steps" translatable="false">Steps</string>
+    <string name="menu_about" translatable="false">About</string>
+    <string name="menu_overflow" translatable="false">More</string>
+    <string name="playback_ack_label" translatable="false">OK</string>
+    <string name="post_playback_rating_title" translatable="false">Post-playback rating</string>
+    <string name="rating_close" translatable="false">Close</string>
+    <string name="rating_description" translatable="false">Rating description</string>
+    <string name="rating_dislike" translatable="false">Dislike</string>
+    <string name="rating_invite" translatable="false">Please rate</string>
+    <string name="rating_invite_missing_key" translatable="false">Missing rating key</string>
+    <string name="rating_like" translatable="false">Like</string>
+    <string name="rating_love" translatable="false">Love</string>
+    <string name="rating_title" translatable="false">Content rating</string>
+    <string name="rating_title_missing_key" translatable="false">Missing title</string>
+    <string name="title_indice" translatable="false">Index</string>
+    <string name="title_instrucciones" translatable="false">Instructions</string>
+    <string name="title_playback" translatable="false">Playback</string>
+    <string name="vcard_title" translatable="false">VCard</string>
+    <string name="playback_preview_hint" translatable="false">Playback preview</string>
+    <string name="accessibility_proceed_playback" translatable="false">Proceed to playback</string>
+</resources>

@@ -1,3 +1,22 @@
-rootProject.name = "content-rating-display-root-bridge"
-// Assist discovery tools by including the Android workspace as a composite build.
-includeBuild("content-rating-display-213568/vod_content_rating_frontend")
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+    plugins {
+        id("com.android.application") version "8.5.2"
+        id("org.jetbrains.kotlin.android") version "1.9.24"
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "vod_content_rating_frontend"
+include(":app")

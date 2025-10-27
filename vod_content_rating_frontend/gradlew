@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-# Bridge gradlew for discovery tools. Delegates to workspace wrapper.
+# Gradle wrapper launcher for this Android project.
+# Ensures we always call the local wrapper relative to this script.
 set -euo pipefail
-cd content-rating-display-213568/vod_content_rating_frontend
-exec ./gradlew "$@"
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+exec "${SCRIPT_DIR}/gradlew.sh" "$@"

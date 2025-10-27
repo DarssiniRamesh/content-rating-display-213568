@@ -1,13 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Executive Gray Theme Palette -->
-    <color name="eg_primary">#374151</color>
-    <color name="eg_secondary">#9CA3AF</color>
-    <color name="eg_background">#F9FAFB</color>
-    <color name="eg_surface">#FFFFFF</color>
-    <color name="eg_text">#111827</color>
-    <color name="eg_success">#059669</color>
-    <color name="eg_error">#DC2626</color>
-    <color name="eg_accent">#F59E0B</color>
-    <color name="eg_on_accent">#111827</color>
-    <color name="eg_border">#E5E7EB</color>
+    <!-- Legacy names mapped to eg_* for compatibility -->
+    <color name="exec_primary">@color/eg_primary</color>
+    <color name="exec_secondary">@color/eg_secondary</color>
+    <color name="exec_success">@color/eg_success</color>
+    <color name="exec_error">@color/eg_error</color>
+    <color name="exec_background">@color/eg_background</color>
+    <color name="exec_surface">@color/eg_surface</color>
+    <color name="exec_text">@color/eg_text</color>
 </resources>
