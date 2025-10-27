@@ -1,0 +1,6 @@
+root = true
+
+[*.{kt,kts}]
+ij_kotlin_allow_trailing_comma = true
+ij_kotlin_name_count_to_use_star_import = 999
+ij_kotlin_imports_layout = $android_sdk.*,java.**,javax.**,kotlin.**,^

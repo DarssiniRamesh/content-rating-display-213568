@@ -13,11 +13,16 @@ import org.example.app.data.AcknowledgementStore
 /**
  * PUBLIC_INTERFACE
  * InstruccionesActivity shows the instructions and rating details.
- * Params:
+ *
+ * Parameters (Intent extras):
  *  - EXTRA_CONTENT_ID: String identifier of the content/prototype.
+ *
  * Behavior:
  *  - User must acknowledge reading the instructions to proceed.
  *  - On proceed, stores acknowledgment for the session and navigates to PlaybackActivity.
+ *
+ * Returns:
+ *  - No explicit result. Launches PlaybackActivity after acknowledgment.
  */
 class InstruccionesActivity : Activity() {
 

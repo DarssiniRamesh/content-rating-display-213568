@@ -31,5 +31,25 @@
 
     <!-- Content rating details (placeholder example) -->
     <string name="rating_title">Clasificación de contenido</string>
+    <string name="post_playback_rating_title">Calificación post reproducción</string>
     <string name="rating_description">Este contenido puede incluir violencia o lenguaje fuerte. Se recomienda discreción del espectador.</string>
+
+    <!-- Post-Playback Rating -->
+    <string name="rating_invite">¿Qué te pareció este video?</string>
+    <string name="rating_like">Me gusta</string>
+    <string name="rating_love">Me encanta</string>
+    <string name="rating_dislike">No me gusta</string>
+    <string name="rating_close">Cerrar</string>
+    <string name="rating_title_missing_key">content_title</string>
+    <string name="rating_invite_missing_key">invitation_copy</string>
+
+    <!-- Playback info formatting -->
+    <string name="playback_ack_label">Ack</string>
+
+    <!-- Menu -->
+    <string name="menu_overflow">Más opciones</string>
+    <string name="menu_about">Acerca de</string>
+
+    <!-- QA helpers -->
+    <string name="vcard_title">Vcard</string>
 </resources>

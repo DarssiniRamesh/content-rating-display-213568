@@ -1,0 +1,6 @@
+rootProject.name = "content-rating-display-213568-workspace"
+
+// Bridge includes for tools that start at this folder
+include(":vod_content_rating_frontend:app")
+include(":vod_content_rating_frontend:list")
+include(":vod_content_rating_frontend:utilities")

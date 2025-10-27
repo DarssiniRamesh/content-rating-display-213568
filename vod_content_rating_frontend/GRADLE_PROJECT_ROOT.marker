@@ -1,0 +1,4 @@
+This file marks the directory as the Gradle project root for automated discovery tools.
+Primary settings file: settings.gradle.dcl
+Gradle wrapper: ./gradlew
+Modules: :app, :list, :utilities

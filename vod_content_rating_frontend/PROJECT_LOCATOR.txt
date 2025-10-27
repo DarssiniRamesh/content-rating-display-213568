@@ -1,0 +1,4 @@
+gradlew=./gradlew
+settings=./settings.gradle.dcl
+modules=:app,:list,:utilities
+entry_activity=org.example.app.ui.IndiceActivity

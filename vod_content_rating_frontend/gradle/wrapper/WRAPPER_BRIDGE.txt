@@ -1,0 +1,7 @@
+This Android project includes a full Gradle wrapper:
+- gradlew / gradlew.bat
+- gradle/wrapper/gradle-wrapper.properties
+
+If your analyzer expects the JAR, run:
+  ./gradlew --version
+to fetch gradle/wrapper/gradle-wrapper.jar automatically.

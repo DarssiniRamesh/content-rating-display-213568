@@ -1,0 +1,9 @@
+Use the Gradle wrapper from the repository root (bootstrap), which delegates to the Android project:
+
+./gradlew :app:assembleDebug
+
+Android project root:
+content-rating-display-213568/vod_content_rating_frontend
+
+Primary settings file:
+content-rating-display-213568/vod_content_rating_frontend/settings.gradle.dcl

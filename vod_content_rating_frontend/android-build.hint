@@ -1,0 +1,4 @@
+ANDROID_WORKSPACE=content-rating-display-213568/vod_content_rating_frontend
+APP_MODULE=:app
+ASSEMBLE=:app:assembleDebug
+WRAPPER=content-rating-display-213568/vod_content_rating_frontend/gradlew

@@ -1,0 +1,4 @@
+android_project_root=content-rating-display-213568/vod_content_rating_frontend
+modules=app,list,utilities
+entry_wrapper=content-rating-display-213568/vod_content_rating_frontend/gradlew
+default_build=:app:assembleDebug

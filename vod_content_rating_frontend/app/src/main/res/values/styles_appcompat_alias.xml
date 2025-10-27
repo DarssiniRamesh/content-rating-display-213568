@@ -1,0 +1,8 @@
+<resources>
+    <!-- Alias theme that extends an AppCompat base, for analyzers/tools expecting AppCompat -->
+    <style name="Theme.ExecutiveGray.AppCompat" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/eg_primary</item>
+        <item name="android:navigationBarColor">@color/eg_primary</item>
+        <item name="android:windowBackground">@color/eg_background</item>
+    </style>
+</resources>

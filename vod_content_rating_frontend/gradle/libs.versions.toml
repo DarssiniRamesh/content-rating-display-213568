@@ -1,0 +1,7 @@
+[versions]
+androidx-appcompat = "1.7.0"
+junit-jupiter = "5.10.2"
+
+[libraries]
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "androidx-appcompat" }
+junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit-jupiter" }

@@ -1,0 +1,4 @@
+project.type=android
+language=kotlin
+gradle.root=settings.gradle
+modules=:content-rating-display-213568:vod_content_rating_frontend:app,:content-rating-display-213568:vod_content_rating_frontend:list,:content-rating-display-213568:vod_content_rating_frontend:utilities

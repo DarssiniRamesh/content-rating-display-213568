@@ -1,0 +1,6 @@
+This directory contains Android resources for the app module.
+- Layouts: res/layout
+- Values: res/values, res/values-en
+- Menu: res/menu
+- Drawables: res/drawable
+- XML: res/xml

@@ -1,0 +1,6 @@
+allprojects {
+    // Gradle init script hint: ensure project root is the Android project when invoked from repo root
+    if (rootDir.name != "vod_content_rating_frontend" && file("content-rating-display-213568/vod_content_rating_frontend/settings.gradle.dcl").exists()) {
+        println("Gradle init: Android project is at content-rating-display-213568/vod_content_rating_frontend")
+    }
+}

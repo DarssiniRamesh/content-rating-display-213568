@@ -1,0 +1,4 @@
+WORKSPACE=content-rating-display-213568/vod_content_rating_frontend
+MODULE=:app
+WRAPPER=content-rating-display-213568/vod_content_rating_frontend/gradlew
+ASSEMBLE=:app:assembleDebug

@@ -1,0 +1,6 @@
+Post-Playback Rating Help
+
+- Purpose: Show rating panel during credits with PIP-style layout.
+- Controls (D-pad): Up/Down/Left/Right, Enter. Default focus is Close.
+- Auto-close: The panel closes automatically after the countdown.
+- Business rules: Skip if already rated; don’t show before credits; rewinds before credits show again later.

@@ -1,0 +1,14 @@
+{
+  "android_project_root": "vod_content_rating_frontend",
+  "modules": [
+    "app",
+    "list",
+    "utilities"
+  ],
+  "launcher_activity": "org.example.app.ui.IndiceActivity",
+  "build_commands": [
+    "./gradlew :app:assembleDebug",
+    "./gradlew :app:installDebug"
+  ],
+  "notes": "Project uses Gradle 9 Declarative DSL (.dcl)."
+}

@@ -18,8 +18,9 @@
         <item name="android:textColor">@color/eg_text</item>
     </style>
 
+    <!-- Updated to use drawable for consistent rounded background -->
     <style name="EG.Button.Primary">
-        <item name="android:background">@color/eg_accent</item>
+        <item name="android:background">@drawable/btn_primary_background</item>
         <item name="android:textColor">@color/eg_on_accent</item>
         <item name="android:padding">12dp</item>
     </style>

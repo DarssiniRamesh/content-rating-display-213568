@@ -66,6 +66,6 @@
             android:layout_height="wrap_content"
             android:text="@string/instrucciones_proceed"
             android:layout_marginTop="12dp"
-            android:contentDescription="@string/instrucciones_ack_hint" />
+            android:contentDescription="@string/accessibility_proceed_playback" />
     </LinearLayout>
 </ScrollView>

@@ -1,0 +1,8 @@
+{
+  "workspace": "content-rating-display-213568/vod_content_rating_frontend",
+  "modules": {
+    "app": "content-rating-display-213568/vod_content_rating_frontend/app",
+    "list": "content-rating-display-213568/vod_content_rating_frontend/list",
+    "utilities": "content-rating-display-213568/vod_content_rating_frontend/utilities"
+  }
+}

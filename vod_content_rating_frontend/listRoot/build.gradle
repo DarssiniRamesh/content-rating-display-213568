@@ -1,0 +1,4 @@
+//
+// Alias module for :listRoot pointing to vod_content_rating_frontend/list
+// Real build config is in build.gradle.dcl at the Android project.
+//

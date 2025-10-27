@@ -1,0 +1,6 @@
+This project uses:
+- Gradle Wrapper (https://gradle.org/)
+- AndroidX libraries (AppCompat)
+- JUnit for unit tests
+
+All third-party components are used under their respective licenses.

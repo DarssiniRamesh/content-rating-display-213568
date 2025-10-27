@@ -1,0 +1,21 @@
+{
+  "workspace_root": "content-rating-display-213568/vod_content_rating_frontend",
+  "modules": [
+    {
+      "name": ":app",
+      "path": "content-rating-display-213568/vod_content_rating_frontend/app",
+      "type": "application"
+    },
+    {
+      "name": ":list",
+      "path": "content-rating-display-213568/vod_content_rating_frontend/list",
+      "type": "library"
+    },
+    {
+      "name": ":utilities",
+      "path": "content-rating-display-213568/vod_content_rating_frontend/utilities",
+      "type": "library"
+    }
+  ],
+  "default_build": "cd content-rating-display-213568/vod_content_rating_frontend && ./gradlew :app:assembleDebug"
+}

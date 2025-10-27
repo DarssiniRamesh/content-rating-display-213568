@@ -1,0 +1,13 @@
+android_project:
+  name: vod_content_rating_frontend
+  path: content-rating-display-213568/vod_content_rating_frontend
+  gradle_wrapper: content-rating-display-213568/vod_content_rating_frontend/gradlew
+  settings: content-rating-display-213568/vod_content_rating_frontend/settings.gradle.dcl
+  modules:
+    - :app
+    - :list
+    - :utilities
+  launcher_activity: org.example.app.ui.IndiceActivity
+  direct_launch:
+    - activity: org.example.app.ui.DevLaunchRatingActivity
+    - action: org.example.app.action.SHOW_POST_PLAYBACK_RATING

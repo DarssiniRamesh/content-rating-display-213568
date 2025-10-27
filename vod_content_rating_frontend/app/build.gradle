@@ -1,0 +1,11 @@
+//
+// Placeholder build script for discovery tools.
+// Real configuration is declared in build.gradle.dcl.
+//
+tasks.register("helpAppModule") {
+    group = "help"
+    description = "Shows that the app module uses Declarative Gradle (see build.gradle.dcl)."
+    doLast {
+        println("This module uses Declarative Gradle. Build via workspace root: ../gradlew :app:assembleDebug")
+    }
+}

@@ -1,0 +1,5 @@
+{
+  "android_workspace": "content-rating-display-213568/vod_content_rating_frontend",
+  "assemble_task": ":app:assembleDebug",
+  "wrapper": "content-rating-display-213568/vod_content_rating_frontend/gradlew"
+}

@@ -1,0 +1,4 @@
+//
+// Alias module for :utilitiesRoot pointing to vod_content_rating_frontend/utilities
+// Real build config is in build.gradle.dcl at the Android project.
+//

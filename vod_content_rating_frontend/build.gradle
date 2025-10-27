@@ -1,0 +1,23 @@
+//
+// Root bridge build script for discovery tools.
+// Delegates to workspace wrapper to avoid duplicating configuration.
+//
+tasks.register("assembleDebug") {
+    group = "build"
+    description = "Delegates to Android workspace :app:assembleDebug"
+    doLast {
+        exec {
+            commandLine = listOf("bash", "-lc", "cd content-rating-display-213568/vod_content_rating_frontend && ./gradlew :app:assembleDebug")
+        }
+    }
+}
+
+tasks.register("clean") {
+    group = "build"
+    description = "Delegates to Android workspace clean"
+    doLast {
+        exec {
+            commandLine = listOf("bash", "-lc", "cd content-rating-display-213568/vod_content_rating_frontend && ./gradlew clean")
+        }
+    }
+}

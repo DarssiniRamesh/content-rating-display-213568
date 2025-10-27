@@ -1,0 +1,7 @@
+workspace_root: content-rating-display-213568/vod_content_rating_frontend
+primary_module: :app
+default_task: :app:assembleDebug
+build:
+  steps:
+    - cd content-rating-display-213568/vod_content_rating_frontend
+    - ./gradlew :app:assembleDebug

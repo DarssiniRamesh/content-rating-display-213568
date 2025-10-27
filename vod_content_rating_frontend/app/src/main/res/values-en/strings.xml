@@ -31,5 +31,25 @@
 
     <!-- Content rating details (placeholder example) -->
     <string name="rating_title">Content Rating</string>
+    <string name="post_playback_rating_title">Post-playback Rating</string>
     <string name="rating_description">This content may include violence or strong language. Viewer discretion is advised.</string>
+
+    <!-- Post-Playback Rating -->
+    <string name="rating_invite">How did you like this video?</string>
+    <string name="rating_like">Like</string>
+    <string name="rating_love">Love</string>
+    <string name="rating_dislike">Dislike</string>
+    <string name="rating_close">Close</string>
+    <string name="rating_title_missing_key">content_title</string>
+    <string name="rating_invite_missing_key">invitation_copy</string>
+
+    <!-- Playback info formatting -->
+    <string name="playback_ack_label">Ack</string>
+
+    <!-- Menu -->
+    <string name="menu_overflow">More options</string>
+    <string name="menu_about">About</string>
+
+    <!-- QA helpers -->
+    <string name="vcard_title">Vcard</string>
 </resources>

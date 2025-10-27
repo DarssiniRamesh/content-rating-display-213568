@@ -1,0 +1,4 @@
+Gradle wrapper configuration is present at repository root for analyzer compatibility.
+If your tool requires the wrapper JAR, it will be downloaded automatically on first run by executing:
+  ./gradlew tasks
+This repository also provides a bridge wrapper in content-rating-display-213568/vod_content_rating_frontend.

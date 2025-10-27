@@ -1,0 +1,3 @@
+gradle.settings=settings.gradle
+gradle.kotlinSettings=settings.gradle.kts
+android.root=content-rating-display-213568/vod_content_rating_frontend

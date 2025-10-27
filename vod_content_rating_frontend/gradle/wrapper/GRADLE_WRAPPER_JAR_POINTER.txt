@@ -1,0 +1,7 @@
+The actual Gradle wrapper JAR is located at:
+content-rating-display-213568/vod_content_rating_frontend/gradle/wrapper/gradle-wrapper.jar
+
+Tools expecting a wrapper at the repository root should delegate to:
+./gradlew :appRoot:assembleDebug
+or
+cd content-rating-display-213568/vod_content_rating_frontend && ./gradlew :app:assembleDebug

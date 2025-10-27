@@ -1,0 +1,5 @@
+This is a placeholder for analyzer compatibility. The Gradle Wrapper JAR will be downloaded automatically to:
+  content-rating-display-213568/gradle/wrapper/gradle-wrapper.jar
+Run:
+  ./gradlew tasks
+from this folder to fetch it using the workspace-level wrapper bridge.

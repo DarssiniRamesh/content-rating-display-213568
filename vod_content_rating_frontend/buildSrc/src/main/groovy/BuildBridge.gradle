@@ -1,0 +1,16 @@
+tasks.register("assembleAppDebug") {
+    group = "build"
+    description = "Bridge task: assembles Android app debug via subproject wrapper."
+    doLast {
+        println("Delegating to Android project assembleDebug …")
+        def androidDir = file("content-rating-display-213568/vod_content_rating_frontend")
+        if (androidDir.exists()) {
+            exec {
+                workingDir androidDir
+                commandLine "./gradlew", ":app:assembleDebug"
+            }
+        } else {
+            println("Android project not found at ${androidDir}")
+        }
+    }
+}

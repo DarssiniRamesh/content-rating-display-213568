@@ -1,0 +1,4 @@
+This directory contains the primary Android application module sources.
+- Manifest: app/src/main/AndroidManifest.xml
+- Resources: app/src/main/res
+- Kotlin/Java: app/src/main/kotlin

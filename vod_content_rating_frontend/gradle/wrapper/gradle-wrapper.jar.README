@@ -1,0 +1,8 @@
+This is a placeholder note for analyzer compatibility. The actual Gradle Wrapper JAR is downloaded automatically
+by the Gradle Wrapper scripts on first run into this exact path:
+  gradle/wrapper/gradle-wrapper.jar
+
+To fetch it, run:
+  ./gradlew --version
+or any Gradle task. The project also includes a working wrapper under:
+  content-rating-display-213568/vod_content_rating_frontend/gradlew

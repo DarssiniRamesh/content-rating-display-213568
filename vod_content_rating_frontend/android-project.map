@@ -1,0 +1,4 @@
+root=.
+modules=:app,:list,:utilities
+wrapper=./gradlew
+buildCmd=./gradlew :app:assembleDebug

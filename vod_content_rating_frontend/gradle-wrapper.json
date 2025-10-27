@@ -1,0 +1,5 @@
+{
+  "wrapper_path": "content-rating-display-213568/vod_content_rating_frontend/gradle/wrapper/gradle-wrapper.jar",
+  "workspace_root": "content-rating-display-213568/vod_content_rating_frontend",
+  "build_cmd": "./gradlew :app:assembleDebug"
+}

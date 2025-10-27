@@ -1,0 +1,4 @@
+//
+// Compatibility marker: this module is configured via build.gradle.dcl.
+// This empty build.gradle helps tools that look for traditional Gradle files.
+//

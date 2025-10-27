@@ -1,0 +1,8 @@
+{
+  "android": {
+    "project_root": "content-rating-display-213568/vod_content_rating_frontend",
+    "gradle_wrapper": "./gradlew",
+    "assemble_task": ":app:assembleDebug",
+    "launcher_activity": "org.example.app.ui.IndiceActivity"
+  }
+}

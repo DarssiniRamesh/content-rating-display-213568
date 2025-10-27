@@ -1,0 +1,9 @@
+#!/bin/sh
+# Workspace-level gradle wrapper bridge for analyzers
+set -e
+DIR="$(cd "$(dirname "$0")" && pwd)"
+if [ -x "$DIR/vod_content_rating_frontend/gradlew" ]; then
+  exec "$DIR/vod_content_rating_frontend/gradlew" "$@"
+fi
+echo "Wrapper not found under vod_content_rating_frontend."
+exit 1

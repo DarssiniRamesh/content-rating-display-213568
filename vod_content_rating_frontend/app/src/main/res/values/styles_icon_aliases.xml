@@ -1,0 +1,7 @@
+<resources>
+    <!-- Icon aliases mapped to placeholder vectors; swappable in themes if needed -->
+    <item name="eg_icon_like" type="drawable">@drawable/ic_like_placeholder</item>
+    <item name="eg_icon_love" type="drawable">@drawable/ic_love_placeholder</item>
+    <item name="eg_icon_dislike" type="drawable">@drawable/ic_dislike_placeholder</item>
+    <item name="eg_icon_close" type="drawable">@drawable/ic_close_placeholder</item>
+</resources>

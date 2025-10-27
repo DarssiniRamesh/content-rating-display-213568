@@ -1,0 +1,21 @@
+{
+  "modules": [
+    {
+      "name": ":app",
+      "manifest": "content-rating-display-213568/vod_content_rating_frontend/app/src/main/AndroidManifest.xml",
+      "res": "content-rating-display-213568/vod_content_rating_frontend/app/src/main/res"
+    },
+    {
+      "name": ":list",
+      "manifest": null,
+      "res": null
+    },
+    {
+      "name": ":utilities",
+      "manifest": null,
+      "res": null
+    }
+  ],
+  "project_root": "content-rating-display-213568/vod_content_rating_frontend",
+  "gradle_wrapper": "content-rating-display-213568/vod_content_rating_frontend/gradlew"
+}

@@ -1,0 +1,6 @@
+# Android Gradle modules and their build files (Declarative)
+project_root=content-rating-display-213568/vod_content_rating_frontend
+module.:app=content-rating-display-213568/vod_content_rating_frontend/app/build.gradle.dcl
+module.:list=content-rating-display-213568/vod_content_rating_frontend/list/build.gradle.dcl
+module.:utilities=content-rating-display-213568/vod_content_rating_frontend/utilities/build.gradle.dcl
+settings=content-rating-display-213568/vod_content_rating_frontend/settings.gradle.dcl

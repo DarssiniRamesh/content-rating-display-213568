@@ -5,6 +5,23 @@
         <item name="android:textColor">@color/eg_text</item>
     </style>
 
+    <!-- Icon placeholder mapping to theme colors -->
+    <style name="EG.Icon">
+        <item name="android:tint">@color/eg_secondary</item>
+    </style>
+    <style name="EG.Icon.Like" parent="EG.Icon">
+        <item name="android:tint">@color/eg_success</item>
+    </style>
+    <style name="EG.Icon.Love" parent="EG.Icon">
+        <item name="android:tint">@color/eg_accent</item>
+    </style>
+    <style name="EG.Icon.Dislike" parent="EG.Icon">
+        <item name="android:tint">@color/eg_error</item>
+    </style>
+    <style name="EG.Icon.Close" parent="EG.Icon">
+        <item name="android:tint">@color/eg_secondary</item>
+    </style>
+
     <style name="EG.Button" parent="android:Widget.Material.Button">
         <item name="android:background">@color/eg_accent</item>
         <item name="android:textColor">@color/eg_on_accent</item>

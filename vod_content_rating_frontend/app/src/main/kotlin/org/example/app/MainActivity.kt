@@ -1,7 +1,9 @@
 package org.example.app
 
 /**
- * Deprecated: The app now starts at org.example.app.ui.IndiceActivity via AndroidManifest.
- * This file remains to preserve previous package structure; not used at runtime.
+ * Deprecated placeholder.
+ *
+ * The app entry point is org.example.app.ui.IndiceActivity (declared in AndroidManifest).
+ * This class is retained only to preserve prior structure. It is not referenced at runtime.
  */
 class MainActivity

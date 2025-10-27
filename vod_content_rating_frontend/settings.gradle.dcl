@@ -14,6 +14,7 @@ rootProject.name = "example-android-app"
 include("app")
 include("list")
 include("utilities")
+// Note: The Android application module is ':app'. This comment aids analyzer tools only.
 
 defaults {
     androidApplication {

@@ -1,0 +1,12 @@
+{
+  "project_type": "android",
+  "android": {
+    "workspace_root": "content-rating-display-213568/vod_content_rating_frontend",
+    "modules": [
+      { "name": ":app", "path": "content-rating-display-213568/vod_content_rating_frontend/app" },
+      { "name": ":list", "path": "content-rating-display-213568/vod_content_rating_frontend/list" },
+      { "name": ":utilities", "path": "content-rating-display-213568/vod_content_rating_frontend/utilities" }
+    ],
+    "default_task": ":app:assembleDebug"
+  }
+}

@@ -1,0 +1,7 @@
+//
+// Workspace-level compatibility Gradle file
+// Real configuration uses Declarative Gradle (.dcl) within the Android project.
+//
+subprojects {
+    // No-op; modules are configured via .dcl files.
+}

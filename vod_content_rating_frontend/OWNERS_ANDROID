@@ -1,0 +1,3 @@
+# Android main module path for tooling
+MAIN_WORKSPACE=content-rating-display-213568/vod_content_rating_frontend
+MAIN_MODULE=:app

@@ -1,0 +1,8 @@
+{
+  "android_project_root": "content-rating-display-213568/vod_content_rating_frontend",
+  "primary_module": ":app",
+  "build_commands": [
+    "cd content-rating-display-213568/vod_content_rating_frontend && ./gradlew :app:assembleDebug",
+    "./gradlew :appRoot:assembleDebug"
+  ]
+}
