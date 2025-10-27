@@ -1,0 +1,1 @@
+This directory contains the Gradle settings (settings.gradle[.dcl]) and should be treated as the Android project root by tools and analyzers.

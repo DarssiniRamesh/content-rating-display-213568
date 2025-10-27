@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="tv_launcher_label">VOD Rating TV</string>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="tv_banner_content_description">VOD Content Rating TV Banner</string>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="tv_index_title_fallback">Índice de prototipos</string>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="tv_instructions_title_fallback">Instrucciones</string>
+</resources>

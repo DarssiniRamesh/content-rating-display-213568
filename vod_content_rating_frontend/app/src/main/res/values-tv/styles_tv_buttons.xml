@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PUBLIC_INTERFACE -->
+    <style name="TvPrimaryButton" parent="@android:style/Widget.Material.Button">
+        <item name="android:minHeight">@dimen/tv_button_min_height</item>
+        <item name="android:minWidth">@dimen/tv_button_min_width</item>
+        <item name="android:textSize">@dimen/tv_button_text_size</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingRight">24dp</item>
+        <item name="android:background">@drawable/focus_ring</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+    </style>
+</resources>

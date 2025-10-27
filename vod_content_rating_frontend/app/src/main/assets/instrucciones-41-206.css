@@ -1,0 +1,30 @@
+#screen-41-206 {
+  overflow: visible;
+  /* base rounding from style_32 already on .screen-root */
+}
+
+/* Ensure precise text rendering and allow pre-line breaks where used */
+.typo-64, .typo-65, .typo-66, .typo-67, .typo-68 {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  word-break: break-word;
+}
+
+/* Override colors to fit this dark screen if needed */
+#el-41-230 { color: #ffffff; }
+#el-41-229, #el-41-222, #el-41-225, #el-41-215, #el-41-208, #el-41-209 { color: #ffffff; }
+
+/* Use the same font presets as common variables (typo tokens) */
+#el-41-230 { text-align: left; }
+
+/* Button yellow hover hint */
+#el-41-226:hover {
+  filter: brightness(0.98);
+}
+
+/* TV DPAD focus visibility for anchors/buttons */
+a:focus, button:focus, [tabindex]:focus {
+  outline: 8px solid #FFE500;
+  outline-offset: 8px;
+  border-radius: 12px;
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="a11y_tv_index_title">Pantalla de índice de prototipos</string>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="a11y_tv_instructions_title">Pantalla de instrucciones</string>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="a11y_tv_continue_button">Botón Continuar</string>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="a11y_tv_acknowledge_button">Botón Entendido</string>
+</resources>

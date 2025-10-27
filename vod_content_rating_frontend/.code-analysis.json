@@ -1,0 +1,5 @@
+{
+  "project_type": "android-gradle",
+  "root": "content-rating-display-213568/vod_content_rating_frontend",
+  "notes": "This repo nests the Android project; set working directory to this root for analysis and Gradle tasks."
+}

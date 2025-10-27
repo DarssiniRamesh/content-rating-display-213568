@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PUBLIC_INTERFACE -->
+    <style name="Theme.VodCalificador.TV.Overlays">
+        <item name="android:buttonStyle">@style/TvButton.Primary</item>
+        <item name="android:textViewStyle">@style/TvText.Large</item>
+    </style>
+</resources>

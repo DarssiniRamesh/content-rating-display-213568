@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="tv_title_index">Índice de prototipos</string>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="tv_title_instructions">Instrucciones</string>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="tv_cta_continue">Continuar</string>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="tv_cta_acknowledge">Entendido</string>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="tv_launcher_label">Calificador de Contenidos (TV)</string>
+</resources>

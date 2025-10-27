@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PUBLIC_INTERFACE -->
+    <style name="AppTheme.TV" parent="Theme.VodCalificador.TV" />
+</resources>

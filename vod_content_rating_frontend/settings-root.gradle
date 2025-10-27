@@ -1,0 +1,9 @@
+rootProject.name = "android-nested-root-bridge"
+
+// Directly include subprojects by path so tools that rely on standard settings.gradle discovery can find them.
+include(":app")
+include(":list")
+include(":utilities")
+project(":app").projectDir = new File(rootDir, "content-rating-display-213568/vod_content_rating_frontend/app")
+project(":list").projectDir = new File(rootDir, "content-rating-display-213568/vod_content_rating_frontend/list")
+project(":utilities").projectDir = new File(rootDir, "content-rating-display-213568/vod_content_rating_frontend/utilities")

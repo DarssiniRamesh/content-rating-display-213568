@@ -1,1 +1,19 @@
-.env
+# Gradle
+.gradle/
+build/
+
+# Android Studio
+.idea/
+*.iml
+
+# Local properties
+local.properties
+
+# Generated
+captures/
+outputs/
+*.apk
+*.aab
+
+# Misc
+.DS_Store

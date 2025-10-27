@@ -1,0 +1,5 @@
+{
+  "gradle_root": "content-rating-display-213568/vod_content_rating_frontend",
+  "app_module": ":app",
+  "notes": "Change working directory to gradle_root before running Gradle commands."
+}

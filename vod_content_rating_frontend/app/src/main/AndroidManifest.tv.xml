@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <activity
+            android:name="org.example.app.tv.TvIndexActivity"
+            android:theme="@style/Theme.VodCalificador.TV" />
+        <activity
+            android:name="org.example.app.tv.TvInstructionsActivity"
+            android:theme="@style/Theme.VodCalificador.TV" />
+    </application>
+</manifest>

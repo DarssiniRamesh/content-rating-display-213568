@@ -1,21 +1,18 @@
-# declarative-samples-android-app
-A sample Android application written in the Declarative Gradle DSL, using the prototype Declarative Gradle `androidApplication` Software Type defined in the `org.gradle.experimental.android-ecosystem` ecosystem plugin.
+# Android Gradle Project Root (TV-first)
 
-## Building and Running
+This directory is the Gradle project root for the Android TV-first app.
 
-This sample shows the definition of a multiproject Android application implemented using Kotlin 2.0.21 source code.
-The project is the result of reproducing the project produced by the `gradle init` command in Gradle 8.9 as an Android project.
+Modules:
+- :app (Android application)
+- :list (Android library)
+- :utilities (Android library)
 
-To build the project without running, use:
+Build:
+- ./gradlew :app:assembleDebug
+- ./gradlew :app:installDebug
 
-```shell
-  ./gradlew build
-```
+TV Entry Points:
+- org.example.app.tv.TvIndexActivity (LEANBACK_LAUNCHER)
+- org.example.app.TvSplashRedirectActivity (MAIN/LAUNCHER that redirects to TV Index on TV devices)
 
-To run the application, first install it on a connected Android device using:
-
-```shell
-  :app:installDebug
-```
-
-Then search for "Sample Declarative Gradle Android App" and launch app to see a hello world message.
+Assets are under app/src/main/assets/ and are loaded via file:///android_asset/.

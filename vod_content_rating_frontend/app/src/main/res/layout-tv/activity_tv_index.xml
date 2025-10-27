@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#39393e"
+    android:padding="48dp">
+
+    <!-- Overscan-safe container -->
+    <LinearLayout
+        android:id="@+id/overscanContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:padding="48dp">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_title_index"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:paddingBottom="24dp"
+            android:importantForAccessibility="no" />
+
+        <!-- Actions row: primary + about -->
+        <include
+            android:id="@+id/includeActions"
+            layout="@layout/include_tv_index_actions" />
+
+        <FrameLayout
+            android:id="@+id/webContainer"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="24dp"
+            style="@style/TvContainer.FocusOutline">
+
+            <WebView
+                android:id="@+id/webIndex"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:overScrollMode="never"
+                android:nextFocusUp="@id/btnPrimary" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="nav_continue">Continuar</string>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="nav_acknowledge">Entendido</string>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="nav_instructions_title">Instrucciones</string>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="nav_index_title">Índice de prototipos</string>
+</resources>

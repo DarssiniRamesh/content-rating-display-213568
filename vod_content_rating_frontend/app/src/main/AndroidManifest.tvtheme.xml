@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.gradle.experimental.android.app">
+    <application>
+        <activity
+            android:name="org.example.app.tv.TvIndexActivity"
+            android:theme="@style/Theme.TvApp" />
+        <activity
+            android:name="org.example.app.tv.TvInstructionsActivity"
+            android:theme="@style/Theme.TvApp" />
+    </application>
+</manifest>

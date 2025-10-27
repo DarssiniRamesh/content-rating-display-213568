@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PUBLIC_INTERFACE -->
+    <style name="AppTheme.TV.Focus" parent="AppTheme.TV">
+        <!-- Enable default focus highlight on TV if supported -->
+        <item name="android:defaultFocusHighlightEnabled">true</item>
+    </style>
+</resources>

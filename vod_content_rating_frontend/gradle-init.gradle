@@ -1,0 +1,5 @@
+allprojects {
+    gradle.taskGraph.whenReady {
+        logger.lifecycle("Hint: The Android project lives at content-rating-display-213568/vod_content_rating_frontend")
+    }
+}

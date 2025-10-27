@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PUBLIC_INTERFACE -->
+    <style name="AppTheme" parent="@android:style/Theme.DeviceDefault.NoActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowEnableSplitTouch">true</item>
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="tv_title_index">Índice de prototipos</string>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="tv_title_instructions">Instrucciones</string>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="tv_cta_continue">Continuar</string>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="tv_cta_acknowledge">Entendido</string>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="tv_launcher_label">Calificador de Contenidos (TV)</string>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="tv_index_continue">Continuar</string>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="tv_instructions_ack">Entendido</string>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="tv_btn_about">Acerca de</string>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="tv_btn_back_to_index">Volver al índice</string>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="tv_title_about">Acerca de</string>
+</resources>

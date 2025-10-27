@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tv_overscan_padding">24dp</dimen>
+    <dimen name="tv_title_text_size">24sp</dimen>
+    <dimen name="tv_button_hpad">24dp</dimen>
+    <dimen name="tv_button_vpad">12dp</dimen>
+</resources>

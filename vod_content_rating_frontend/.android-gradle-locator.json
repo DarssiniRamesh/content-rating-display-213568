@@ -1,0 +1,6 @@
+{
+  "gradleProjectRoot": "content-rating-display-213568/vod_content_rating_frontend",
+  "gradleWrapper": "content-rating-display-213568/vod_content_rating_frontend/gradlew",
+  "appModule": ":app",
+  "buildTasks": [":app:assembleDebug", ":app:installDebug"]
+}

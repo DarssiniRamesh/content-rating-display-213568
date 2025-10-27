@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PUBLIC_INTERFACE -->
+    <bool name="is_tv">true</bool>
+    <!-- PUBLIC_INTERFACE -->
+    <bool name="tv_enable_webview_dpad_paging">true</bool>
+</resources>

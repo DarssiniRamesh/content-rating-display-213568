@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PUBLIC_INTERFACE -->
+    <color name="tv_bg">#39393e</color>
+    <color name="tv_focus_primary">#FFE500</color>
+    <color name="tv_focus_stroke">#FFFFFF</color>
+    <color name="tv_surface_default">#202020</color>
+    <color name="tv_surface_focused">#1F1F1F</color>
+</resources>

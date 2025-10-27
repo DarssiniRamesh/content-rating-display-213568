@@ -1,0 +1,7 @@
+{
+  "gradleRoot": "content-rating-display-213568/vod_content_rating_frontend",
+  "module": ":app",
+  "assembleTask": ":app:assembleDebug",
+  "testTask": ":app:testDebugUnitTest",
+  "connectedTestTask": ":app:connectedDebugAndroidTest"
+}

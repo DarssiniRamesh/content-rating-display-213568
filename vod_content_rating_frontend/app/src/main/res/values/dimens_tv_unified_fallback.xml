@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Unified fallback dimens for TV if -tv qualifiers are not applied -->
+    <dimen name="tv_spacing_outer">24dp</dimen>
+    <dimen name="tv_spacing_inner">16dp</dimen>
+    <dimen name="tv_spacing_between">16dp</dimen>
+    <dimen name="tv_title_text_size">24sp</dimen>
+</resources>

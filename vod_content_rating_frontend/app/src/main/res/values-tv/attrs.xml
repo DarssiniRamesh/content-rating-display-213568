@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PUBLIC_INTERFACE -->
+    <attr name="tvFocusOutlineColor" format="color" />
+    <!-- PUBLIC_INTERFACE -->
+    <attr name="tvContainerBackground" format="color" />
+</resources>

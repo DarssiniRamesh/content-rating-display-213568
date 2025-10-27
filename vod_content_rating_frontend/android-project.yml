@@ -1,0 +1,6 @@
+gradle_root: content-rating-display-213568/vod_content_rating_frontend
+modules:
+  - app
+  - list
+  - utilities
+notes: Nested Android Gradle project; run ./gradlew from the path above.

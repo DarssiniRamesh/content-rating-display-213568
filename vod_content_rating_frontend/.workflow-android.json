@@ -1,0 +1,8 @@
+{
+  "android_project_root": "content-rating-display-213568/vod_content_rating_frontend",
+  "default_tasks": [
+    ":app:assembleDebug",
+    "test"
+  ],
+  "notes": "Change working directory to the path above before running Gradle."
+}

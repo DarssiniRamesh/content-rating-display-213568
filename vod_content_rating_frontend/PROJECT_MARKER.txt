@@ -1,0 +1,2 @@
+This folder is the Android Gradle project root for the nested application (modules: app, list, utilities).
+Open this directory in Android Studio or run ./gradlew from here.

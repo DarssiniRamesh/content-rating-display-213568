@@ -1,0 +1,8 @@
+gradle.settingsEvaluated { settings ->
+    // If Gradle is invoked from repo root, redirect to nested Android project root.
+    def nested = new File(settings.settingsDir, "content-rating-display-213568/vod_content_rating_frontend")
+    if (nested.exists() && nested.isDirectory()) {
+        settings.startParameter.currentDir = nested
+        settings.logger.lifecycle("Gradle init redirect: using nested Android root at ${nested.absolutePath}")
+    }
+}

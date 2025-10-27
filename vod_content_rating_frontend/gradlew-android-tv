@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Helper to build the Android project from the repository root.
+set -euo pipefail
+cd content-rating-display-213568/vod_content_rating_frontend
+exec ./gradlew "$@"

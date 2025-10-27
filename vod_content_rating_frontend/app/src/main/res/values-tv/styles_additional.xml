@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PUBLIC_INTERFACE -->
+    <style name="TvSurface.Focusable">
+        <item name="android:foregroundTint">#FFFFFF</item>
+    </style>
+</resources>

@@ -1,0 +1,5 @@
+{
+  "projectRoot": "content-rating-display-213568/vod_content_rating_frontend",
+  "modules": [":app", ":list", ":utilities"],
+  "wrapper": "content-rating-display-213568/vod_content_rating_frontend/gradlew"
+}

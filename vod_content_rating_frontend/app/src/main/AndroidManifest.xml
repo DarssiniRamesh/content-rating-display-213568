@@ -1,13 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
-    <application android:label="@string/app_name">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="org.example.app">
+
+    <!-- TV device features -->
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+
+    <application
+        android:label="@string/app_name"
+        android:hardwareAccelerated="true"
+        android:theme="@style/AppTheme">
+
+        <!-- Mobile Activity (not launcher; splash handles launch) -->
         <activity
             android:name=".MainActivity"
+            android:exported="true" />
+
+        <!-- Unified launcher that redirects to TV Index on TV devices, or MainActivity otherwise -->
+        <activity
+            android:name=".TvSplashRedirectActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+                <!-- Standard launcher for all devices -->
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Optional alias splash (non-launcher) -->
+        <activity
+            android:name=".TvSplashRedirectSafe"
+            android:exported="false" />
+
+        <!-- TV Index Activity - Leanback launcher -->
+        <activity
+            android:name="org.example.app.tv.TvIndexActivity"
+            android:exported="true"
+            android:banner="@drawable/tv_banner"
+            android:logo="@mipmap/ic_launcher"
+            android:label="@string/tv_launcher_label"
+            android:resizeableActivity="true"
+            android:supportsPictureInPicture="false"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <!-- TV home launcher -->
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- TV Instructions Activity (with QA deep link) -->
+        <activity
+            android:name="org.example.app.tv.TvInstructionsActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:resizeableActivity="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="app" android:host="instructions" />
+            </intent-filter>
+        </activity>
+
+        <!-- TV About screen (stub) -->
+        <activity
+            android:name="org.example.app.tv.TvAboutActivity"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:resizeableActivity="true" />
     </application>
 </manifest>

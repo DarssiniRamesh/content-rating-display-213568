@@ -1,0 +1,8 @@
+android {
+    // PUBLIC_INTERFACE
+    // This manifest merger configuration file documents TV overlays that should be merged.
+    // Placeholders for reference; Gradle merges all manifests under src/<variant>/ by default.
+    // Overlays present:
+    // - src/main/AndroidManifest.tv.xml
+    // - src/main/AndroidManifest.alias.tv.xml
+}

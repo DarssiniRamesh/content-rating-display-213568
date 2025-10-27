@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PUBLIC_INTERFACE -->
+    <dimen name="tv_button_text_size">24sp</dimen>
+    <!-- PUBLIC_INTERFACE -->
+    <dimen name="tv_body_text_size">20sp</dimen>
+</resources>

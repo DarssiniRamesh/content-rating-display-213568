@@ -1,0 +1,6 @@
+{
+  "gradle_root": "content-rating-display-213568/vod_content_rating_frontend",
+  "modules": ["app", "list", "utilities"],
+  "build_file": "content-rating-display-213568/vod_content_rating_frontend/build.gradle",
+  "settings_file": "content-rating-display-213568/vod_content_rating_frontend/settings.gradle.dcl"
+}

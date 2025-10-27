@@ -1,0 +1,18 @@
+gradle_root: content-rating-display-213568/vod_content_rating_frontend
+modules:
+  - path: content-rating-display-213568/vod_content_rating_frontend/app
+    type: application
+    namespace: org.example.app
+    entry_activities:
+      - org.example.app.MainActivity
+      - org.example.app.tv.TvIndexActivity
+  - path: content-rating-display-213568/vod_content_rating_frontend/list
+    type: library
+    namespace: org.gradle.experimental.android.list
+  - path: content-rating-display-213568/vod_content_rating_frontend/utilities
+    type: library
+    namespace: org.gradle.experimental.android.utilities
+default_task: build
+notes: |
+  This repository hosts an Android project inside a nested directory.
+  Run: cd content-rating-display-213568/vod_content_rating_frontend && ./gradlew build

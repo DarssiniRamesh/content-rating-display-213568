@@ -1,0 +1,6 @@
+{
+  "android": {
+    "gradle_root": "content-rating-display-213568/vod_content_rating_frontend",
+    "app_module": "content-rating-display-213568/vod_content_rating_frontend/app"
+  }
+}

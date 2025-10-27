@@ -1,0 +1,13 @@
+{
+  "root": ".",
+  "modules": [
+    { "name": ":app", "type": "application", "path": "app" },
+    { "name": ":list", "type": "library", "path": "list" },
+    { "name": ":utilities", "type": "library", "path": "utilities" }
+  ],
+  "tv": {
+    "leanback": true,
+    "launcherActivity": "org.example.app.tv.TvIndexActivity",
+    "splashActivity": "org.example.app.TvSplashRedirectActivity"
+  }
+}

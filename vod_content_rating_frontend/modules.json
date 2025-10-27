@@ -1,0 +1,8 @@
+{
+  "root": ".",
+  "modules": [
+    {"path": ":app", "dir": "app", "type": "application"},
+    {"path": ":list", "dir": "list", "type": "library"},
+    {"path": ":utilities", "dir": "utilities", "type": "library"}
+  ]
+}

@@ -1,0 +1,4 @@
+Android Gradle project is located at:
+content-rating-display-213568/vod_content_rating_frontend
+Modules: app, list, utilities
+Use the Gradle wrapper at content-rating-display-213568/vod_content_rating_frontend/gradlew

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PUBLIC_INTERFACE -->
+    <style name="TvHint.Container">
+        <item name="android:background">@drawable/tv_nav_hint_bg</item>
+        <item name="android:padding">16dp</item>
+    </style>
+</resources>

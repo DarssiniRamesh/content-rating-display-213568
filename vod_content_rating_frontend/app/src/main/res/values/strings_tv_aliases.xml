@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="tv_index_title">@string/tv_title_index</string>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="tv_instructions_title">@string/tv_title_instructions</string>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="tv_index_continue">@string/tv_cta_continue</string>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="tv_instructions_ack">@string/tv_cta_acknowledge</string>
+</resources>

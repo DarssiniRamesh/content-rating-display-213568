@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="tv_category_instructions">Instrucciones</string>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="tv_category_index">Índice</string>
+</resources>

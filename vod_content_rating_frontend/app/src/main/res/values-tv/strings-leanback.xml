@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="leanback_launcher_label">VOD Calificador TV</string>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="leanback_launcher_description">Prototipos de calificación de contenidos para TV</string>
+</resources>

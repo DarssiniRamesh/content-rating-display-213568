@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a11y_tv_index_screen">Pantalla de índice de prototipos</string>
+    <string name="a11y_tv_instructions_screen">Pantalla de instrucciones</string>
+    <string name="a11y_continue_button">Botón continuar</string>
+    <string name="a11y_acknowledge_button">Botón entendido</string>
+</resources>

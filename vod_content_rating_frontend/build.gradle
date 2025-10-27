@@ -1,18 +1,6 @@
-buildscript {
-    repositories {
-        google()
-        mavenCentral()
-        gradlePluginPortal()
-    }
-    dependencies {
-        classpath "com.android.tools.build:gradle:8.6.0"
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:2.0.21"
-    }
+tasks.register("buildAll") {
+    dependsOn(":app:build")
 }
-
-allprojects {
-    repositories {
-        google()
-        mavenCentral()
-    }
+tasks.register("assembleDebug") {
+    dependsOn(":app:assembleDebug")
 }

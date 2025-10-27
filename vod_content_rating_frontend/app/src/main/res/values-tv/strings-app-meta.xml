@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="tv_app_description">Aplicación de prototipos para calificar contenido VOD en Android TV</string>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="tv_app_category">Entretenimiento</string>
+</resources>

@@ -1,0 +1,7 @@
+allprojects {
+    tasks.register("printModules") {
+        doLast {
+            println("Modules: " + rootProject.subprojects.collect { it.path })
+        }
+    }
+}

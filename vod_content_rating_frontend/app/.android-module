@@ -1,0 +1,3 @@
+type=application
+namespace=org.example.app
+entry_activities=org.example.app.MainActivity,org.example.app.tv.TvIndexActivity

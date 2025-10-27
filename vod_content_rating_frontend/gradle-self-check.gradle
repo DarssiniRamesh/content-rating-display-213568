@@ -1,0 +1,5 @@
+tasks.register("printProjectDir") {
+    doLast {
+        println("ANDROID_GRADLE_PROJECT_DIR=" + rootProject.projectDir.absolutePath)
+    }
+}

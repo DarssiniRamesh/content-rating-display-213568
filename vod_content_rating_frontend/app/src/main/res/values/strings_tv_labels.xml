@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="open_tv_index_button">Abrir TV Índice</string>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="menu_open_tv_index">Abrir Índice (TV)</string>
+</resources>

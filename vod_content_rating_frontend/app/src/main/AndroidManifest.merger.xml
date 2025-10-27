@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This manifest merger file ensures additional manifest snippets are merged. -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Include alias manifest -->
+    <include src="AndroidManifest.alias.xml" />
+    <!-- Include additions (permissions) -->
+    <include src="AndroidManifest.additions.xml" />
+    <!-- Include TV theme overrides -->
+    <include src="AndroidManifest.tvtheme.xml" />
+</manifest>

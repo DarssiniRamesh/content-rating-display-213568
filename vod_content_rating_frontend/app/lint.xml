@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="WebViewClientOnReceivedSslError">
+        <ignore path="src/main/java/org/example/app/tv/**" />
+    </issue>
+    <issue id="SetJavaScriptEnabled">
+        <ignore path="src/main/java/org/example/app/tv/**" />
+    </issue>
+    <issue id="AllowAllHostnameVerifier">
+        <ignore path="src/main/java/org/example/app/tv/**" />
+    </issue>
+</lint>

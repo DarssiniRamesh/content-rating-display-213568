@@ -1,0 +1,11 @@
+allprojects {
+    task("printModules") {
+        doLast {
+            println("Root project: ${rootProject.name}")
+            println("Modules:")
+            rootProject.subprojects.each { p ->
+                println(" - ${p.path}")
+            }
+        }
+    }
+}

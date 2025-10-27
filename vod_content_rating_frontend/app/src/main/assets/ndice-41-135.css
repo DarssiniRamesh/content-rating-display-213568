@@ -1,0 +1,18 @@
+#screen-41-135 {
+  /* exact base size already inline; keep any screen-wide overflow behavior here if needed */
+  overflow: visible;
+}
+
+/* Ensure text rendering consistency on large sizes */
+.typo-65, .typo-66, .typo-67, .typo-68, .typo-64 {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  word-break: break-word;
+}
+
+/* TV DPAD focus visibility for anchors/buttons */
+a:focus, button:focus, [tabindex]:focus {
+  outline: 8px solid #FFE500;
+  outline-offset: 8px;
+  border-radius: 12px;
+}

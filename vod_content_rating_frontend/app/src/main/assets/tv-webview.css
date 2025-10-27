@@ -1,0 +1,17 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #39393e;
+  color: #fff;
+}
+a, button {
+  outline: none;
+}
+:focus {
+  outline: 4px solid #FFE500;
+  outline-offset: 4px;
+}
+img { max-width: 100%; height: auto; }
+::-webkit-scrollbar { width: 16px; height: 16px; }
+::-webkit-scrollbar-thumb { background: #606060; border-radius: 8px; }
+::-webkit-scrollbar-track { background: #2a2a2a; }

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="tv_index_shortcut"
+        android:enabled="true"
+        android:shortcutShortLabel="@string/tv_index_title"
+        android:shortcutLongLabel="@string/tv_index_screen_desc"
+        android:icon="@mipmap/ic_launcher">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="tvindex://open" />
+        <categories android:name="android.shortcut.category.LEANBACK_LAUNCHER" />
+    </shortcut>
+</shortcuts>

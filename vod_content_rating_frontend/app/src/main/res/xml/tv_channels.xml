@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<channels xmlns:android="http://schemas.android.com/apk/res/android">
+    <channel
+        android:display_name="Prototipos"
+        android:app_link_intent_uri="tvindex://open" />
+</channels>

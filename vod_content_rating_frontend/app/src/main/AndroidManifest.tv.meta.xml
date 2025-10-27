@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <!-- Explicit TV metadata for discovery by some TV launchers -->
+        <meta-data
+            android:name="android.software.leanback"
+            android:value="true" />
+        <meta-data
+            android:name="android.hardware.touchscreen"
+            android:value="false" />
+    </application>
+</manifest>

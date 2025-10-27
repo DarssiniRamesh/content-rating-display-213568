@@ -1,0 +1,34 @@
+:root {
+  --color-39393e: #39393e;
+  --color-ffffff: #ffffff;
+  --color-000000: #000000;
+  --color-797979: #797979;
+  --style-32-background: var(--color-39393e);
+  --style-38-background: #ffe500;
+}
+
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--style-32-background);
+}
+
+.scaled-canvas {
+  position: relative;
+  transform-origin: top left;
+  margin: 0 auto;
+}
+
+.screen-root {
+  position: relative;
+  background: var(--style-32-background);
+  overflow: visible;
+}
+
+.button-yellow {
+  background: var(--style-38-background);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

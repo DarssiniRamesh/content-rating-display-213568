@@ -1,0 +1,5 @@
+{
+  "working_directory": "content-rating-display-213568/vod_content_rating_frontend",
+  "gradle_wrapper": "content-rating-display-213568/vod_content_rating_frontend/gradlew",
+  "default_tasks": ["build", ":app:assembleDebug"]
+}

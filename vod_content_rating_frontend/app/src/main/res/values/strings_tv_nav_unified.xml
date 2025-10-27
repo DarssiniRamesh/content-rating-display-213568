@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="tv_nav_continue">Continuar</string>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="tv_nav_ack">Entendido</string>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="tv_nav_index">Índice de prototipos</string>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="tv_nav_instructions">Instrucciones</string>
+</resources>

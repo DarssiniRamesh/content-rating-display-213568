@@ -1,0 +1,7 @@
+This file marks the directory as the Gradle project root for tooling discovery.
+Modules:
+- :app
+- :list
+- :utilities
+Primary Android app module: :app
+Leanback launcher activity: org.example.app.tv.TvIndexActivity

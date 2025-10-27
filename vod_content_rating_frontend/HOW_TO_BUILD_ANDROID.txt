@@ -1,0 +1,9 @@
+Android/Kotlin project root:
+content-rating-display-213568/vod_content_rating_frontend
+
+Build commands (run from the path above):
+./gradlew :app:assembleDebug
+./gradlew test
+
+TV launcher activity:
+org.example.app.tv.TvIndexActivity

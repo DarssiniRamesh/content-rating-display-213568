@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PUBLIC_INTERFACE -->
+    <style name="TextAppearance.Tv.Title" parent="@android:style/TextAppearance.Material.Headline">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!-- PUBLIC_INTERFACE -->
+    <style name="TextAppearance.Tv.Body" parent="@android:style/TextAppearance.Material.Body1">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+</resources>

@@ -1,0 +1,4 @@
+{
+  "android_gradle_root": "content-rating-display-213568/vod_content_rating_frontend",
+  "notes": "Mobile analyzers should treat this path as the Gradle root (contains settings.gradle.dcl and modules)."
+}

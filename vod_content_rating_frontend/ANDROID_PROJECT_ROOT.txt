@@ -1,0 +1,8 @@
+This file marks the Android project root for external analyzers.
+
+Project root (Gradle): content-rating-display-213568/vod_content_rating_frontend
+
+Open this directory in your IDE or point your analyzer to it so it can find:
+- settings.gradle.dcl
+- build.gradle (root)
+- app/, list/, utilities/ modules

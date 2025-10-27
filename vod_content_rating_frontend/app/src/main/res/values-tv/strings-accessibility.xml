@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="tv_banner_content_description">Calificador de Contenidos - Android TV</string>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="tv_continue_button_label">Continuar</string>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="tv_ack_button_label">Entendido</string>
+</resources>

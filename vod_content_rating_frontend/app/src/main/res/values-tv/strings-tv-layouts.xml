@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="tv_index_continue">Continuar</string>
+    <!-- PUBLIC_INTERFACE -->
+    <string name="tv_instructions_ack">Entendido</string>
+</resources>

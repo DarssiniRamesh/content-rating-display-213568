@@ -1,0 +1,6 @@
+# Copy to local.properties in this directory when building locally.
+# Do NOT commit local.properties with machine-specific paths.
+# Example:
+# sdk.dir=/usr/local/android-sdk
+# OR on macOS with Android Studio:
+# sdk.dir=/Users/<username>/Library/Android/sdk

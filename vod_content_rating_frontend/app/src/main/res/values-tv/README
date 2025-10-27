@@ -1,0 +1,4 @@
+TV resources live here.
+- TV-specific layouts: res/layout-tv/
+- TV-specific styles: res/values-tv/styles.xml, dimens.xml, strings.xml
+- Focus state drawable: res/drawable/focus_ring.xml

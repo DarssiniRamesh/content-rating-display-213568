@@ -1,0 +1,4 @@
+CI/Analyzers: The Android/Kotlin Gradle project root is nested at:
+content-rating-display-213568/vod_content_rating_frontend
+
+Please set the working directory to this path before running Gradle commands.

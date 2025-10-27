@@ -1,0 +1,4 @@
+# Placeholder default ProGuard config for environments expecting explicit file presence.
+-dontwarn **
+-dontoptimize
+-keepattributes *Annotation*

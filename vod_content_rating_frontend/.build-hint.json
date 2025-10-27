@@ -1,0 +1,5 @@
+{
+  "gradle_root": ".",
+  "modules": [":app", ":list", ":utilities"],
+  "default_tasks": ["build", ":app:assembleDebug"]
+}

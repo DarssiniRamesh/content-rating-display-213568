@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PUBLIC_INTERFACE -->
+    <dimen name="tv_spacing_outer">48dp</dimen>
+    <!-- PUBLIC_INTERFACE -->
+    <dimen name="tv_spacing_inner">24dp</dimen>
+    <!-- PUBLIC_INTERFACE -->
+    <dimen name="tv_spacing_between">24dp</dimen>
+    <!-- PUBLIC_INTERFACE -->
+    <dimen name="tv_title_text_size">36sp</dimen>
+</resources>

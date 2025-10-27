@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PUBLIC_INTERFACE -->
+    <dimen name="tv_overscan_safe_margin">48dp</dimen>
+    <!-- PUBLIC_INTERFACE -->
+    <dimen name="tv_overscan_safe_margin_small">32dp</dimen>
+</resources>

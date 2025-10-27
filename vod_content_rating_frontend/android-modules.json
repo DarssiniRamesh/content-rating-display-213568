@@ -1,0 +1,11 @@
+{
+  "rootDir": ".",
+  "modules": [
+    {
+      "name": "app",
+      "path": "app"
+    }
+  ],
+  "wrapper": "gradlew",
+  "settings": "settings.gradle.dcl"
+}

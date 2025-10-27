@@ -1,0 +1,17 @@
+{
+  "gradle_root": ".",
+  "modules": [
+    {
+      "name": "app",
+      "type": "application"
+    },
+    {
+      "name": "list",
+      "type": "library"
+    },
+    {
+      "name": "utilities",
+      "type": "library"
+    }
+  ]
+}

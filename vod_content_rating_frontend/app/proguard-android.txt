@@ -1,0 +1,2 @@
+# Placeholder for additional Android TV consumer ProGuard rules
+# (The project already includes proguard-rules.pro at module level.)

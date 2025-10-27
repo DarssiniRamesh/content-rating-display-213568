@@ -1,0 +1,4 @@
+{
+  "android_gradle_root": "content-rating-display-213568/vod_content_rating_frontend",
+  "note": "External tools should use this directory as the Gradle root for analysis/build."
+}

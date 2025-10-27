@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PUBLIC_INTERFACE -->
+    <color name="colorPrimary">#374151</color>
+    <color name="colorPrimaryDark">#111827</color>
+    <color name="colorAccent">#FFE500</color>
+</resources>

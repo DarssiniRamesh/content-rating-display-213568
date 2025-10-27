@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PUBLIC_INTERFACE -->
+    <style name="Base.AppTheme.TV" parent="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:defaultFocusHighlightEnabled">true</item>
+    </style>
+
+    <!-- PUBLIC_INTERFACE -->
+    <style name="AppTheme.TV" parent="Base.AppTheme.TV" />
+</resources>

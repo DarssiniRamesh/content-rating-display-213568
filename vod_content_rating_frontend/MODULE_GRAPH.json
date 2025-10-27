@@ -1,0 +1,8 @@
+{
+  "root": "content-rating-display-213568/vod_content_rating_frontend",
+  "modules": [
+    {"path": ":app", "dir": "app"},
+    {"path": ":list", "dir": "list"},
+    {"path": ":utilities", "dir": "utilities"}
+  ]
+}

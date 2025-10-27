@@ -1,0 +1,6 @@
+<!-- Pointer manifest for external analyzers.
+     The actual Android project lives under content-rating-display-213568/vod_content_rating_frontend.
+     This file exists only to help tools detect an Android project in a nested path. -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- No application/components here; see nested project for real manifest. -->
+</manifest>
