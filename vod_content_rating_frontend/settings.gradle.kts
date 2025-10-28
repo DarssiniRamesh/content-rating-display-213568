@@ -1,22 +1,4 @@
-pluginManagement {
-    repositories {
-        google()
-        mavenCentral()
-        gradlePluginPortal()
-    }
-    plugins {
-        id("com.android.application") version "8.5.2"
-        id("org.jetbrains.kotlin.android") version "1.9.24"
-    }
-}
+rootProject.name = "workspace-root-bridge-kts"
 
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories {
-        google()
-        mavenCentral()
-    }
-}
-
-rootProject.name = "vod_content_rating_frontend"
-include(":app")
+// Delegate to the canonical Android workspace (Gradle Declarative project)
+includeBuild("content-rating-display-213568/vod_content_rating_frontend")

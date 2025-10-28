@@ -30,6 +30,7 @@
     <string name="rating_title_missing_key" translatable="false">Missing title</string>
     <string name="title_indice" translatable="false">Index</string>
     <string name="title_instrucciones" translatable="false">Instructions</string>
+    <string name="instrucciones_proceed" translatable="false">Proceed</string>
     <string name="title_playback" translatable="false">Playback</string>
     <string name="vcard_title" translatable="false">VCard</string>
     <string name="playback_preview_hint" translatable="false">Playback preview</string>

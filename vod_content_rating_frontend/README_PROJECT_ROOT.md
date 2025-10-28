@@ -1,27 +1,14 @@
-# Android Project Root (Gradle Declarative)
+# Project Root
 
-This directory is the Android Gradle project root.
+Android workspace is located at:
+- content-rating-display-213568/vod_content_rating_frontend
 
-Gradle (Declarative) files:
-- settings.gradle.dcl (primary)
-- app/build.gradle.dcl
-- list/build.gradle.dcl
-- utilities/build.gradle.dcl
-
-Compatibility pointers for discovery tools:
-- settings.gradle (thin pointer)
-- settings.gradle.kts (thin pointer)
-- build.gradle (thin pointer)
-- local.properties (marker)
-- GRADLE_PROJECT_ROOT.md (marker)
-- PROJECT_LOCATOR.txt (marker)
-
-Wrapper:
-- ./gradlew (Unix)
-- ./gradlew.bat (Windows)
-
-Build:
+How to build:
+- cd content-rating-display-213568/vod_content_rating_frontend
 - ./gradlew :app:assembleDebug
 
-Launcher Activity:
-- org.example.app.ui.IndiceActivity (declared in app/src/main/AndroidManifest.xml)
+Key files:
+- settings.gradle.dcl (Declarative Gradle)
+- app/src/main/AndroidManifest.xml
+- Launcher: org.example.app.ui.AliasMainActivity
+- Deep link preview: app://rating/show -> DeepLinkLauncherActivity

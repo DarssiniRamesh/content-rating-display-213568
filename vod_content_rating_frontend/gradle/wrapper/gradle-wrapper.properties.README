@@ -1,0 +1,6 @@
+This repository bridges Gradle wrapper calls at the repository root to the Android workspace wrapper.
+The canonical wrapper properties are located at:
+  content-rating-display-213568/vod_content_rating_frontend/gradle/wrapper/gradle-wrapper.properties
+Use:
+  ./gradlew :app:assembleDebug
+which delegates to the Android workspace wrapper.

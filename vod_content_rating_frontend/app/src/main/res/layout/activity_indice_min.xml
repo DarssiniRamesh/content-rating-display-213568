@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/indiceRootMin"
+    android:orientation="vertical"
+    android:background="@color/eg_background"
+    android:padding="@dimen/eg_space_lg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/indiceTitle"
+        style="@style/EG.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_indice" />
+
+    <TextView
+        android:id="@+id/indiceIntro"
+        style="@style/EG.Body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/eg_space_md"
+        android:text="@string/indice_intro_body" />
+
+    <Button
+        android:id="@+id/buttonGoToInstrucciones"
+        style="@style/Widget.Executive.Button.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/eg_space_lg"
+        android:text="@string/title_instrucciones" />
+
+    <Button
+        android:id="@+id/buttonOpenRatingQA"
+        style="@style/Widget.Executive.Button.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/eg_space_md"
+        android:text="@string/qa_start_playback" />
+
+    <Button
+        android:id="@+id/buttonOpenDeepLinkStyle"
+        style="@style/Widget.Executive.Button.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/eg_space_md"
+        android:text="@string/menu_indice_title_es" />
+</LinearLayout>

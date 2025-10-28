@@ -1,0 +1,26 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+    dependencies { }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+tasks.register("androidWorkspaceInfo") {
+    group = "help"
+    description = "Prints Android workspace location and assemble command."
+    doLast {
+        println("Android workspace: content-rating-display-213568/vod_content_rating_frontend")
+        println("Settings: content-rating-display-213568/vod_content_rating_frontend/settings.gradle.dcl")
+        println("Wrapper: content-rating-display-213568/vod_content_rating_frontend/gradlew")
+        println("Build: cd content-rating-display-213568/vod_content_rating_frontend && ./gradlew :app:assembleDebug")
+    }
+}

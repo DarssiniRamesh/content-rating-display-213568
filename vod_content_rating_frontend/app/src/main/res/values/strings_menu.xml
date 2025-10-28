@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="menu_indice_title_es" translatable="false">Menú índice (QA)</string>
+    <string name="menu_about" translatable="false">About</string>
+    <string name="menu_overflow" translatable="false">More</string>
 </resources>

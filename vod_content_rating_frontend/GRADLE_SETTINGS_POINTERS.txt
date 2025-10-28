@@ -1,0 +1,9 @@
+settings.gradle
+settings.gradle.kts
+settings.includeBuild.gradle
+settings.includeBuild.gradle.kts
+settings.android.gradle
+settings.android.root.gradle
+settings.android.include.gradle
+settings.gradle.dcl
+content-rating-display-213568/vod_content_rating_frontend/settings.gradle.dcl

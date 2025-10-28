@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/descriptorsPreviewBlock"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/eg_space_md">
+
+    <TextView
+        android:id="@+id/descriptorsHeaderStatic"
+        style="@style/EG.Body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rating_descriptors_header"
+        android:textStyle="bold"
+        android:textColor="@color/eg_secondary" />
+
+    <TextView
+        android:id="@+id/descriptorsStaticList"
+        style="@style/EG.Body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rating_descriptors_example" />
+</LinearLayout>

@@ -7,5 +7,44 @@
     <string name="acknowledge">Acknowledge</string>
     <string name="acknowledged">Acknowledged</string>
     <string name="content_rating_icon">Content rating shield icon</string>
+    <string name="content_rating_badge">Content rating badge</string>
     <string name="acknowledged_note">You may now proceed to playback.</string>
+    <string name="title_playback">Playback</string>
+
+    <!-- Rating preview additions -->
+    <string name="rating_descriptors_header">Content descriptors</string>
+    <string name="rating_countdown_label">Enabling in</string>
+    <string name="rating_descriptor_violence">Violence</string>
+    <string name="rating_descriptor_language">Language</string>
+    <string name="rating_descriptor_smoking">Smoking</string>
+    <string name="rating_countdown_format">%1$ds</string>
+    <string name="rating_countdown_label">Time remaining</string>
+    <string name="rating_badge_placeholder">Unrated</string>
+    <string name="rating_label_missing_key">rating_label</string>
+    <string name="rating_code_missing_key">rating_code</string>
+    <string name="rating_description_missing_key">advisory</string>
+    <string name="rating_title_missing_key">content_title</string>
+
+    <!-- Instrucciones copy (basic) -->
+    <string name="title_indice">Index</string>
+    <string name="indice_intro_body">Use the button below to preview the rating screen with sample content.</string>
+    <string name="title_instrucciones">Instructions</string>
+    <string name="instrucciones_howto">Press Proceed to preview the content rating screen with seeded details.</string>
+    <string name="instrucciones_proceed">Proceed</string>
+    <string name="qa_start_playback">Start Playback</string>
+    <string name="qa_open_deeplink">Open Rating (Deep Link)</string>
+    <string name="accessibility_proceed_playback">Proceed to playback</string>
+
+    <!-- Rating actions -->
+    <string name="rating_like">Like</string>
+    <string name="rating_love">Love</string>
+    <string name="rating_dislike">Dislike</string>
+    <string name="rating_close">Acknowledge</string>
+    <string name="post_playback_rating_title">Post-playback rating</string>
+    <string name="rating_countdown_label">Enabling in</string>
+    <string name="rating_invite">Please rate</string>
+    <string name="rating_title">Content rating</string>
+    <string name="about_help_body">Use Index → Proceed to preview the rating screen. Or run: adb shell am start -W -a android.intent.action.VIEW -d "app://rating/show" org.gradle.experimental.android.app</string>
+    <string name="title_playback">Playback</string>
+    <string name="accessibility_proceed_playback">Proceed to playback</string>
 </resources>

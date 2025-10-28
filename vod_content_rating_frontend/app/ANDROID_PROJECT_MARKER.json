@@ -1,0 +1,10 @@
+{
+  "module": ":app",
+  "namespace": "org.example.app",
+  "manifest": "src/main/AndroidManifest.xml",
+  "launcher_activity": "org.example.app.ui.IndiceActivity",
+  "deep_links": [
+    "app://rating/show",
+    "app://rating/index"
+  ]
+}

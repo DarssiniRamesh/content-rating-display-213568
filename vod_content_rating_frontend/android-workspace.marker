@@ -1,0 +1,8 @@
+workspace_root=content-rating-display-213568/vod_content_rating_frontend
+wrapper=content-rating-display-213568/vod_content_rating_frontend/gradlew
+settings=content-rating-display-213568/vod_content_rating_frontend/settings.gradle.dcl
+default_task=:app:assembleDebug
+modules=:app,:list,:utilities
+manifest=content-rating-display-213568/vod_content_rating_frontend/app/src/main/AndroidManifest.xml
+launcher=org.example.app.ui.AliasMainActivity
+deeplink=app://rating/show

@@ -1,0 +1,13 @@
+{
+  "workspaces": [
+    {
+      "name": "vod_content_rating_frontend",
+      "root": "content-rating-display-213568/vod_content_rating_frontend",
+      "settings": "content-rating-display-213568/vod_content_rating_frontend/settings.gradle.dcl",
+      "wrapper": "content-rating-display-213568/vod_content_rating_frontend/gradlew",
+      "modules": [":app", ":list", ":utilities"],
+      "launcher": "org.example.app.ui.IndiceActivity",
+      "assemble": ":app:assembleDebug"
+    }
+  ]
+}

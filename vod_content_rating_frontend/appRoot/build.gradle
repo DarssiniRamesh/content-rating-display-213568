@@ -2,3 +2,10 @@
 // Alias module for :appRoot pointing to vod_content_rating_frontend/app
 // Real build config is in build.gradle.dcl at the Android project.
 //
+tasks.register("assembleDebugAlias") {
+    group = "build"
+    description = "Bridge alias; instructs to run the Android workspace assemble."
+    doLast {
+        println("Run from workspace root: cd content-rating-display-213568/vod_content_rating_frontend && ./gradlew :app:assembleDebug")
+    }
+}

@@ -1,0 +1,5 @@
+ANDROID_WORKSPACE=content-rating-display-213568/vod_content_rating_frontend
+GRADLE_WRAPPER=content-rating-display-213568/vod_content_rating_frontend/gradlew
+SETTINGS_DCL=content-rating-display-213568/vod_content_rating_frontend/settings.gradle.dcl
+ASSEMBLE_TASK=:app:assembleDebug
+LAUNCHER=org.example.app.ui.IndiceActivity

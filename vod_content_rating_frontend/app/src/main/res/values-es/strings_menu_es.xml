@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_indice_title_es" translatable="false">Menú índice (QA)</string>
+    <string name="menu_about" translatable="false">Acerca de</string>
+</resources>

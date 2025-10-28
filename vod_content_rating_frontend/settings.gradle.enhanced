@@ -1,0 +1,25 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "workspace-root-bridge-enhanced"
+
+// Directly include the actual Android workspace modules so root is a valid Gradle project for analyzers
+include(":app")
+project(":app").projectDir = file("content-rating-display-213568/vod_content_rating_frontend/app")
+include(":list")
+project(":list").projectDir = file("content-rating-display-213568/vod_content_rating_frontend/list")
+include(":utilities")
+project(":utilities").projectDir = file("content-rating-display-213568/vod_content_rating_frontend/utilities")

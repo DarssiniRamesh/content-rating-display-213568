@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Ensures R.style.Theme_ExecutiveGray_AppCompat exists and maps to the app-wide Executive Gray theme -->
+    <style name="Theme.ExecutiveGray.AppCompat" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/eg_primary</item>
+        <item name="android:navigationBarColor">@color/eg_primary</item>
+        <item name="android:windowBackground">@color/eg_background</item>
+        <item name="colorPrimary">@color/eg_primary</item>
+        <item name="colorSecondary">@color/eg_secondary</item>
+        <item name="colorError">@color/eg_error</item>
+    </style>
+
+    <!-- Safe programmatic reference -->
+    <style name="Theme_ExecutiveGray_AppCompat" parent="Theme.ExecutiveGray.AppCompat" />
+</resources>

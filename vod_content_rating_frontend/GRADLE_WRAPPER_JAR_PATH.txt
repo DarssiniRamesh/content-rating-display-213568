@@ -1,1 +1,1 @@
-content-rating-display-213568/vod_content_rating_frontend/gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.jar

@@ -1,4 +1,6 @@
-This file marks the directory as the Gradle project root for automated discovery tools.
-Primary settings file: settings.gradle.dcl
-Gradle wrapper: ./gradlew
-Modules: :app, :list, :utilities
+This repository's canonical Android Gradle project root is:
+content-rating-display-213568/vod_content_rating_frontend
+
+Use:
+  cd content-rating-display-213568/vod_content_rating_frontend
+  ./gradlew :app:assembleDebug

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_playback_reset" translatable="false">Restart session</string>
+</resources>

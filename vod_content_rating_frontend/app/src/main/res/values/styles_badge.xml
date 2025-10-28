@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="EG.RatingBadge" parent="@style/EG.Body">
+        <item name="android:textColor">@color/eg_surface</item>
+    </style>
+</resources>

@@ -1,0 +1,6 @@
+{
+  "root": "content-rating-display-213568/vod_content_rating_frontend",
+  "wrapper": "content-rating-display-213568/vod_content_rating_frontend/gradlew",
+  "assemble": ":app:assembleDebug",
+  "modules": [":app", ":list", ":utilities"]
+}

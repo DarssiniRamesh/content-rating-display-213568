@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Bridge alias used by Activities via setTheme(R.style.Theme_ExecutiveGray_AppCompat) -->
+    <style name="Theme_ExecutiveGray_AppCompat" parent="Theme.ExecutiveGray.AppCompat" />
+</resources>

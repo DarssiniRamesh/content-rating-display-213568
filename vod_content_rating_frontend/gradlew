@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
-# Gradle wrapper launcher for this Android project.
-# Ensures we always call the local wrapper relative to this script.
+# Root bootstrap Gradle wrapper: delegates to Android workspace wrapper
 set -euo pipefail
-
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-exec "${SCRIPT_DIR}/gradlew.sh" "$@"
+cd "$(dirname "$0")/content-rating-display-213568/vod_content_rating_frontend"
+exec ./gradlew "$@"

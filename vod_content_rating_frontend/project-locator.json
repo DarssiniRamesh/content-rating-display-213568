@@ -1,0 +1,15 @@
+{
+  "android_project": {
+    "workspace_root": "content-rating-display-213568/vod_content_rating_frontend",
+    "settings": "content-rating-display-213568/vod_content_rating_frontend/settings.gradle.dcl",
+    "gradle_wrapper": "content-rating-display-213568/vod_content_rating_frontend/gradlew",
+    "modules": [":app", ":list", ":utilities"],
+    "app_manifest": "content-rating-display-213568/vod_content_rating_frontend/app/src/main/AndroidManifest.xml",
+    "launcher_activity": "org.example.app.ui.AliasMainActivity",
+    "assemble_task": ":app:assembleDebug",
+    "deeplink": {
+      "activity": "org.example.app.ui.DeepLinkLauncherActivity",
+      "uri": "app://rating/show"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+Instrucciones:
+- Use Proceed to preview the rating screen with sample content.
+- Or use the QA button from Índice to jump straight into the rating screen.
+- Deep link: app://rating/show

@@ -1,11 +1,11 @@
 {
-  "root": "content-rating-display-213568/vod_content_rating_frontend",
-  "modules": [
-    { "name": ":app", "path": "content-rating-display-213568/vod_content_rating_frontend/app" },
-    { "name": ":list", "path": "content-rating-display-213568/vod_content_rating_frontend/list" },
-    { "name": ":utilities", "path": "content-rating-display-213568/vod_content_rating_frontend/utilities" }
-  ],
-  "gradle_wrapper": "content-rating-display-213568/vod_content_rating_frontend/gradlew",
-  "settings_file": "content-rating-display-213568/vod_content_rating_frontend/settings.gradle.dcl",
-  "entry_activity": "org.example.app.ui.IndiceActivity"
+  "workspace": "content-rating-display-213568/vod_content_rating_frontend",
+  "modules": {
+    "app": "content-rating-display-213568/vod_content_rating_frontend/app",
+    "list": "content-rating-display-213568/vod_content_rating_frontend/list",
+    "utilities": "content-rating-display-213568/vod_content_rating_frontend/utilities"
+  },
+  "wrapper": "content-rating-display-213568/vod_content_rating_frontend/gradlew",
+  "settings": "content-rating-display-213568/vod_content_rating_frontend/settings.gradle.dcl",
+  "launcher_activity": "org.example.app.ui.IndiceActivity"
 }

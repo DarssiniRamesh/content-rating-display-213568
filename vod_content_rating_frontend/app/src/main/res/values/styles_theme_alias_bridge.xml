@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Alias for Kotlin setTheme usage -->
+    <style name="Theme_ExecutiveGray" parent="Theme.ExecutiveGray" />
+</resources>

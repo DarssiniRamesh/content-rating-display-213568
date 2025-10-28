@@ -1,0 +1,3 @@
+rootProject.name = "android-root-bridge"
+
+apply from: "settings.android.include.gradle"

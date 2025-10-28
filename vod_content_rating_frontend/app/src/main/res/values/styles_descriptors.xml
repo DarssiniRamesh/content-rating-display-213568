@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="EG.Descriptor.Item" parent="@style/EG.Body">
+        <item name="android:layout_marginTop">@dimen/eg_space_xs</item>
+        <item name="android:layout_marginBottom">@dimen/eg_space_xs</item>
+        <item name="android:textColor">@color/eg_text</item>
+    </style>
+</resources>

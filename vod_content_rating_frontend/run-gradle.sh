@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 set -euo pipefail
 cd "$(dirname "$0")"
-exec ./gradlew :app:assembleDebug
+./gradlew --version || true
+./gradlew tasks

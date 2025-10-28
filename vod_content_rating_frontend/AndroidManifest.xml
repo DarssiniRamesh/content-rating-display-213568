@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Root-level manifest pointer for analyzers. The actual Android project is under:
-     content-rating-display-213568/vod_content_rating_frontend/app/src/main/AndroidManifest.xml -->
+<!-- Analyzer helper manifest. The functional manifest is under app/src/main/AndroidManifest.xml -->
 <manifest package="org.example.app.pointer" xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- This file is a non-functional pointer; real manifest is in the Android workspace. -->
+    <application android:hasCode="false"/>
 </manifest>

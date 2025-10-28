@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="deeplink_help_body" translatable="false">adb shell am start -W -a android.intent.action.VIEW -d "app://rating/show" org.gradle.experimental.android.app</string>
+</resources>

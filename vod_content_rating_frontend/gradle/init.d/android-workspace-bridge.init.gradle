@@ -1,0 +1,10 @@
+allprojects {
+    ext.set("androidWorkspaceRoot", "content-rating-display-213568/vod_content_rating_frontend")
+    ext.set("androidWorkspaceSettings", "content-rating-display-213568/vod_content_rating_frontend/settings.gradle.dcl")
+    ext.set("androidWorkspaceWrapper", "content-rating-display-213568/vod_content_rating_frontend/gradlew")
+}
+gradle.settingsEvaluated { settings ->
+    if (settings.rootProject.name == null || settings.rootProject.name.isEmpty()) {
+        settings.rootProject.name = "workspace-root"
+    }
+}

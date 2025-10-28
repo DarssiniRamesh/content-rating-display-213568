@@ -12,6 +12,8 @@
         style="@style/EG.Title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
         android:text="@string/title_indice" />
 
     <TextView
@@ -22,6 +24,14 @@
         android:layout_marginTop="@dimen/eg_space_md"
         android:text="@string/indice_intro_body" />
 
+    <TextView
+        android:id="@+id/indiceSubtitlePreview"
+        style="@style/EG.Body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/eg_space_sm"
+        android:text="@string/indice_subtitle_preview" />
+
     <com.google.android.material.button.MaterialButton
         android:id="@+id/buttonOpenRatingQA"
         style="@style/Widget.EG.Button.Primary"
@@ -29,5 +39,42 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/eg_space_xl"
         android:text="@string/qa_start_playback" />
+
+    <include
+        layout="@layout/include_indice_preview_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonGoToInstrucciones"
+        style="@style/Widget.EG.Button.Secondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/eg_space_md"
+        android:text="@string/title_instrucciones" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonOpenDevLaunch"
+        style="@style/Widget.EG.Button.Secondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/eg_space_md"
+        android:text="Open Rating (Dev)" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonOpenDeepLinkStyle"
+        style="@style/Widget.EG.Button.Secondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/eg_space_md"
+        android:text="@string/qa_open_deeplink" />
+
+    <TextView
+        android:id="@+id/indiceHint"
+        style="@style/EG.Body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/eg_space_md"
+        android:text="@string/playback_preview_hint" />
 
 </LinearLayout>

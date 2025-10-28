@@ -1,0 +1,26 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "android-root-project"
+
+include(":app")
+project(":app").projectDir = file("content-rating-display-213568/vod_content_rating_frontend/app")
+
+include(":list")
+project(":list").projectDir = file("content-rating-display-213568/vod_content_rating_frontend/list")
+
+include(":utilities")
+project(":utilities").projectDir = file("content-rating-display-213568/vod_content_rating_frontend/utilities")

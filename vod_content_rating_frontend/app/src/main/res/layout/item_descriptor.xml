@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/descriptorText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/eg_text"
+    android:textSize="14sp"
+    android:paddingStart="@dimen/eg_space_sm"
+    android:paddingTop="@dimen/eg_space_xs"
+    android:paddingBottom="@dimen/eg_space_xs"
+    android:text="• Descriptor"/>

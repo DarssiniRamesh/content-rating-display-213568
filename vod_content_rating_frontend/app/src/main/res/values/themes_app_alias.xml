@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Alias theme mapping used by application in manifest -->
+    <style name="Theme.ExecutiveGray" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Colors -->
+        <item name="colorPrimary">@color/eg_primary</item>
+        <item name="colorPrimaryContainer">@color/eg_secondary</item>
+        <item name="colorOnPrimary">@color/eg_surface</item>
+        <item name="colorSecondary">@color/eg_secondary</item>
+        <item name="colorError">@color/eg_error</item>
+        <item name="android:statusBarColor">@color/eg_primary</item>
+        <item name="android:navigationBarColor">@color/eg_primary</item>
+        <item name="android:windowBackground">@color/eg_background</item>
+
+        <!-- Typography -->
+        <item name="textAppearanceHeadline6">@style/TextAppearance.EG.Title</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.EG.Body</item>
+        <item name="textAppearanceButton">@style/TextAppearance.EG.Button</item>
+
+        <!-- Buttons -->
+        <item name="materialButtonStyle">@style/Widget.EG.Button.Primary</item>
+    </style>
+</resources>

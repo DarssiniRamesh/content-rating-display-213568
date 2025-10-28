@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Alias to allow setTheme(R.style.Theme_ExecutiveGray) if referenced by tools -->
+    <style name="Theme_ExecutiveGray" parent="Theme.ExecutiveGray" />
+</resources>

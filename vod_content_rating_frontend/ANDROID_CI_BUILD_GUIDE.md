@@ -1,4 +1,4 @@
-# Android CI Build Guide
+# Android CI Build Guide (Repository Root)
 
 Android project root:
 - content-rating-display-213568/vod_content_rating_frontend

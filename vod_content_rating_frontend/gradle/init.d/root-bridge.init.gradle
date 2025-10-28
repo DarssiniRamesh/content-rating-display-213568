@@ -1,0 +1,10 @@
+allprojects {
+    // Marker to assist analyzers; no-op for actual builds
+    ext.set("androidRootBridge", "content-rating-display-213568/vod_content_rating_frontend")
+}
+
+gradle.settingsEvaluated { settings ->
+    if (settings.rootProject != null && settings.rootProject.name == null) {
+        settings.rootProject.name = "workspace-root"
+    }
+}

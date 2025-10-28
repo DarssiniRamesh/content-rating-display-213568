@@ -1,0 +1,10 @@
+{
+  "android_workspace_root": "content-rating-display-213568/vod_content_rating_frontend",
+  "settings_file": "content-rating-display-213568/vod_content_rating_frontend/settings.gradle.dcl",
+  "modules": [
+    "app",
+    "list",
+    "utilities"
+  ],
+  "launcher_activity": "org.example.app.ui.IndiceActivity"
+}

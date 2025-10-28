@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rating_descriptors_header">Descriptores de contenido</string>
+    <string name="rating_badge_placeholder">Sin clasificación</string>
+    <string name="rating_countdown_label">Disponible en</string>
+    <string name="rating_acknowledge_cta">Entendido</string>
+</resources>

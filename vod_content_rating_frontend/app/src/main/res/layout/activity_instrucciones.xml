@@ -26,12 +26,21 @@
             android:layout_marginTop="@dimen/eg_space_md"
             android:text="@string/instrucciones_howto" />
 
+        <TextView
+            android:id="@+id/instruccionesHint"
+            style="@style/EG.Body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/eg_space_md"
+            android:text="@string/indice_intro_body" />
+
         <com.google.android.material.button.MaterialButton
             android:id="@+id/buttonProceed"
             style="@style/Widget.EG.Button.Primary"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/eg_space_lg"
+            android:contentDescription="@string/accessibility_proceed_playback"
             android:text="@string/instrucciones_proceed" />
 
     </LinearLayout>

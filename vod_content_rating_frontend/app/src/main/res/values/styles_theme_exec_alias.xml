@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Safe alias used from Kotlin via R.style.Theme_ExecutiveGray_AppCompat -->
+    <style name="Theme.ExecutiveGray.AppCompat" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/eg_primary</item>
+        <item name="android:navigationBarColor">@color/eg_primary</item>
+        <item name="android:windowBackground">@color/eg_background</item>
+    </style>
+    <style name="Theme_ExecutiveGray_AppCompat" parent="Theme.ExecutiveGray.AppCompat" />
+</resources>

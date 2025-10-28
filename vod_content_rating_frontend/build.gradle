@@ -1,4 +1,8 @@
-buildscript {
-    // Empty - using plugins DSL in module builds
+tasks.register("androidWorkspaceHelp") {
+    group = "help"
+    description = "Shows how to build the Android app from this repository root."
+    doLast {
+        println("Android workspace detected at: content-rating-display-213568/vod_content_rating_frontend")
+        println("Build with: ./gradlew :app:assembleDebug")
+    }
 }
-// Repositories are defined in settings.gradle via dependencyResolutionManagement

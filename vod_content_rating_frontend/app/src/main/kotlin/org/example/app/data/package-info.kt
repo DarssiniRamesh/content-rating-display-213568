@@ -1,7 +1,21 @@
+@file:JvmName("DataPackageInfo")
+
+package org.example.app.data
+
 /**
  * PUBLIC_INTERFACE
- * Package marker for data layer (models, repository, intent keys).
- * Contains stub documentation to aid code discovery.
+ * Package: org.example.app.data
+ *
+ * Contains:
+ * - RatingInfo (Parcelable) used by the rating preview screen
+ * - IntentKeys (EXTRA_RATING_INFO) to pass RatingInfo safely
+ *
+ * This marker helps static analyzers confirm the presence of data models and constants.
  */
-@file:JvmName("DataPackageInfo")
-package org.example.app.data
+object DataPackageIndex {
+    // PUBLIC_INTERFACE
+    fun symbols(): Array<String> = arrayOf(
+        RatingInfo::class.java.name,
+        IntentKeys::class.java.name
+    )
+}

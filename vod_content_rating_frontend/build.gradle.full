@@ -1,0 +1,23 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+// Helper tasks for CI/analyzers
+tasks.register("androidHelp") {
+    doLast {
+        println("Android workspace resolved from repo root.")
+        println("Modules: :app, :list, :utilities")
+        println("Build: ./gradlew :app:assembleDebug")
+    }
+}

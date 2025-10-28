@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Ensure alias themes and styles are available for all configurations -->
+    <style name="Theme_ExecutiveGray_AppCompat" parent="Theme.ExecutiveGray.AppCompat" />
+    <style name="EG.Title" parent="TextAppearance.EG.Title"/>
+    <style name="EG.Body" parent="TextAppearance.EG.Body"/>
+</resources>

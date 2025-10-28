@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Fallbacks in case analyzers require direct style names -->
+    <style name="EG.Title" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">@color/eg_text</item>
+    </style>
+    <style name="EG.Body" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/eg_text</item>
+    </style>
+    <style name="EG.Button.Primary" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/eg_primary</item>
+        <item name="android:textColor">@color/eg_surface</item>
+    </style>
+    <style name="Widget.EG.Button.Secondary" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/eg_secondary</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="android:textColor">@color/eg_text</item>
+    </style>
+</resources>

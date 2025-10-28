@@ -1,0 +1,5 @@
+allprojects {
+    gradle.settingsEvaluated {
+        println("Android workspace -> content-rating-display-213568/vod_content_rating_frontend")
+    }
+}

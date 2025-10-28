@@ -1,0 +1,10 @@
+rootProject.name = "android-composite-bridge"
+
+// Include the Android workspace as a composite build
+includeBuild("content-rating-display-213568/vod_content_rating_frontend") {
+    dependencySubstitution {
+        substitute(module("app")).using(project(":app"))
+        substitute(module("list")).using(project(":list"))
+        substitute(module("utilities")).using(project(":utilities"))
+    }
+}

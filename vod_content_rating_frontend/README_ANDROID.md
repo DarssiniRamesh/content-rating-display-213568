@@ -1,11 +1,15 @@
-# Android Workspace Root
+# Android Project Location
 
-This directory is the canonical Android project root.
+Android workspace:
+- content-rating-display-213568/vod_content_rating_frontend
 
 Build:
-- ./gradlew :app:assembleDebug
+- From repository root (bridge): ./gradlew :app:assembleDebug
+- Or cd content-rating-display-213568/vod_content_rating_frontend && ./gradlew :app:assembleDebug
 
-Modules:
-- app (application)
-- list (library)
-- utilities (library)
+Launcher:
+- org.example.app.ui.IndiceActivity
+
+Notes:
+- Project uses Gradle 9 Declarative (settings.gradle.dcl, build.gradle.dcl).
+- Compatibility files are present at repository root to aid analyzers and CI.

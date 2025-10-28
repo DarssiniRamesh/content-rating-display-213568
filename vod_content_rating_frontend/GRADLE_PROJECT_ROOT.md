@@ -1,12 +1,12 @@
-This directory is the Android Gradle project root.
+This directory is the Gradle project root (bridge) for discovery tools.
 
-Key files:
-- settings.gradle.dcl (Gradle 9 Declarative)
-- gradlew / gradlew.bat (Gradle wrapper)
-- app/, list/, utilities/ modules
+Key pointers:
+- Android project root: content-rating-display-213568/vod_content_rating_frontend
+- Wrapper: content-rating-display-213568/vod_content_rating_frontend/gradlew
+- Settings (Declarative): content-rating-display-213568/vod_content_rating_frontend/settings.gradle.dcl
+- Modules: :app, :list, :utilities
 
 Build:
-- ./gradlew :app:assembleDebug
-
-IDE import:
-- Open this folder as the project root.
+- From repository root (bridge): ./gradlew :app:assembleDebug
+- Or:
+  cd content-rating-display-213568/vod_content_rating_frontend && ./gradlew :app:assembleDebug

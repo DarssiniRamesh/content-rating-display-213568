@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Additional safe strings for previews -->
+    <string name="rating_badge_placeholder">Unrated</string>
+    <string name="rating_descriptors_header">Content descriptors</string>
+    <string name="rating_countdown_format">%1$ds</string>
+    <string name="rating_title">Content rating</string>
+    <string name="rating_title_missing_key">content_title</string>
+    <string name="rating_description_missing_key">advisory</string>
+    <string name="indice_intro_body">Use the button below to preview the rating screen with sample content.</string>
+    <string name="instrucciones_howto">Press Proceed to preview the content rating screen with seeded details.</string>
+    <string name="qa_start_playback">Start Playback</string>
+</resources>

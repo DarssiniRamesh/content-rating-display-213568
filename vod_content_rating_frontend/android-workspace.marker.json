@@ -1,0 +1,8 @@
+{
+  "type": "android-workspace-marker",
+  "workspace_root": "content-rating-display-213568/vod_content_rating_frontend",
+  "gradle_wrapper": "content-rating-display-213568/vod_content_rating_frontend/gradlew",
+  "settings": "content-rating-display-213568/vod_content_rating_frontend/settings.gradle.dcl",
+  "default_task": ":app:assembleDebug",
+  "launcher_activity": "org.example.app.ui.IndiceActivity"
+}

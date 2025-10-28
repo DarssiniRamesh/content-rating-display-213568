@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rating_descriptors_header">Content descriptors</string>
+    <string name="rating_countdown_format">%1$ds</string>
+    <string name="rating_badge_placeholder">Unrated</string>
+    <string name="rating_description_missing_key">advisory</string>
+    <string name="rating_title_missing_key">content_title</string>
+    <string name="deeplink_scheme" translatable="false">app</string>
+    <string name="deeplink_host" translatable="false">rating</string>
+    <string name="deeplink_path_show" translatable="false">/show</string>
+    <string name="deeplink_usage_note" translatable="false">Launch with app://rating/show</string>
+</resources>

@@ -1,0 +1,8 @@
+{
+  "root": ".",
+  "settings": "settings.gradle.dcl",
+  "wrapper": "./gradlew",
+  "modules": [":app", ":list", ":utilities"],
+  "app_manifest": "app/src/main/AndroidManifest.xml",
+  "notes": "Project uses Gradle 9 Declarative (.dcl). Use ./gradlew :app:assembleDebug"
+}

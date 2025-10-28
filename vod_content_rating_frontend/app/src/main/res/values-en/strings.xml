@@ -10,4 +10,28 @@
     <string name="content_rating_icon">Content rating shield icon</string>
     <string name="acknowledged_note">You may now proceed to playback.</string>
     <string name="playback_preview_hint">Playback preview</string>
+    <string name="menu_overflow" translatable="false">More</string>
+
+    <string name="rating_descriptors_header">Content descriptors</string>
+    <string name="rating_countdown_format">%1$ds</string>
+    <string name="rating_countdown_label">Time remaining</string>
+    <string name="rating_badge_placeholder">Unrated</string>
+    <string name="rating_description_missing_key">advisory</string>
+    <string name="rating_title_missing_key">content_title</string>
+    <string name="rating_countdown_label">Enabling in</string>
+    <string name="accessibility_proceed_playback">Proceed to playback</string>
+
+    <string name="title_indice">Index</string>
+    <string name="indice_intro_body">Use the button below to preview the rating screen with sample content.</string>
+    <string name="title_instrucciones">Instructions</string>
+    <string name="instrucciones_howto">Press Proceed to preview the content rating screen with seeded details.</string>
+    <string name="instrucciones_proceed">Proceed</string>
+
+    <string name="rating_like">Like</string>
+    <string name="rating_love">Love</string>
+    <string name="rating_dislike">Dislike</string>
+    <string name="rating_close">Acknowledge</string>
+    <string name="post_playback_rating_title">Post-playback rating</string>
+    <string name="rating_invite">Please rate</string>
+    <string name="rating_title">Content rating</string>
 </resources>

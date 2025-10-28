@@ -1,0 +1,4 @@
+rootProject.name = "android-root-include-only-app"
+
+include(":app")
+project(":app").projectDir = file("content-rating-display-213568/vod_content_rating_frontend/app")

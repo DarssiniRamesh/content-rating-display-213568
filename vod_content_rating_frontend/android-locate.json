@@ -1,5 +1,11 @@
 {
   "android_root": "content-rating-display-213568/vod_content_rating_frontend",
   "wrapper": "content-rating-display-213568/vod_content_rating_frontend/gradlew",
-  "build_cmd": "cd content-rating-display-213568/vod_content_rating_frontend && ./gradlew :app:assembleDebug"
+  "build_cmd": "cd content-rating-display-213568/vod_content_rating_frontend && ./gradlew :app:assembleDebug",
+  "modules": [
+    { "name": ":app", "path": "content-rating-display-213568/vod_content_rating_frontend/app" },
+    { "name": ":list", "path": "content-rating-display-213568/vod_content_rating_frontend/list" },
+    { "name": ":utilities", "path": "content-rating-display-213568/vod_content_rating_frontend/utilities" }
+  ],
+  "launcher_activity": "org.example.app.ui.AliasMainActivity"
 }

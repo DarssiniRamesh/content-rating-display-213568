@@ -1,0 +1,6 @@
+The Gradle wrapper JAR is located under the Android workspace:
+content-rating-display-213568/vod_content_rating_frontend/gradle/wrapper/gradle-wrapper.jar
+
+To build the Android app:
+- cd content-rating-display-213568/vod_content_rating_frontend
+- ./gradlew :app:assembleDebug

@@ -1,0 +1,2 @@
+Primary Android Declarative Gradle settings:
+content-rating-display-213568/vod_content_rating_frontend/settings.gradle.dcl

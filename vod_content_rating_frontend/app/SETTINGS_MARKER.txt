@@ -1,0 +1,4 @@
+This is the Android app module.
+Settings file is located at:
+  ../../settings.gradle.dcl (primary, Declarative Gradle)
+  ../../settings.gradle (bridge)

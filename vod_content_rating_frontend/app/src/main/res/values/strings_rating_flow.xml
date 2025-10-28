@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_playback">Playback</string>
+    <string name="menu_deeplink_help">Deep Link Help</string>
+    <string name="deeplink_help_instructions">Use: adb shell am start -W -a android.intent.action.VIEW -d "app://rating/show" org.gradle.experimental.android.app</string>
+</resources>

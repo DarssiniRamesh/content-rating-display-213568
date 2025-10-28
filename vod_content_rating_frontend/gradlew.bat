@@ -1,4 +1,6 @@
 @echo off
-REM Bridge gradlew for discovery tools. Delegates to workspace wrapper.
-cd content-rating-display-213568/vod_content_rating_frontend
+REM Root bootstrap Gradle wrapper: delegates to Android workspace wrapper
+setlocal
+cd content-rating-display-213568\vod_content_rating_frontend
 call gradlew.bat %*
+endlocal

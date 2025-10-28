@@ -1,0 +1,3 @@
+rootProject.name = "app-module-bridge"
+include(":app")
+project(":app").projectDir = file(".")

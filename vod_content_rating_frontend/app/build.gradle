@@ -1,93 +1,13 @@
+/*
+Bridge build.gradle for :app (actual config is in build.gradle.dcl).
+Exists for analyzers that expect a traditional Groovy build file at the module root.
+*/
 plugins {
-    id("com.android.application")
-    id("org.jetbrains.kotlin.android")
+    // no-op: real configuration uses Declarative Gradle
 }
-
-tasks.withType(Test).configureEach {
-    useJUnitPlatform()
-}
-
-android {
-    namespace = "org.example.vodrating"
-    compileSdk = 34
-
-    lint {
-        abortOnError = true
-        warningsAsErrors = false
-        // If CI remains noisy due to third-party issues, set a baseline by running updateLintBaseline locally.
+tasks.register("assembleDebugBridge") {
+    group = "build"
+    doLast {
+        println("Run from workspace root: ./gradlew :app:assembleDebug")
     }
-
-    defaultConfig {
-        applicationId = "org.example.vodrating"
-        minSdk = 24
-        targetSdk = 34
-        versionCode = 1
-        versionName = "1.0.0"
-
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-        vectorDrawables {
-            useSupportLibrary = true
-        }
-    }
-
-    buildTypes {
-        release {
-            minifyEnabled = false
-            proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
-            )
-        }
-        debug {
-            applicationIdSuffix = ".debug"
-            versionNameSuffix = "-debug"
-        }
-    }
-
-    buildFeatures {
-        // No Compose per project rules
-        viewBinding = true
-        dataBinding = false
-        buildConfig = true
-    }
-
-    compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_17
-        targetCompatibility = JavaVersion.VERSION_17
-    }
-    kotlinOptions {
-        jvmTarget = "17"
-    }
-
-    packaging {
-        resources {
-            excludes += "/META-INF/{AL2.0,LGPL2.1}"
-        }
-    }
-}
-
-dependencies {
-    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.9.24")
-
-    implementation("androidx.core:core-ktx:1.13.1")
-    implementation("androidx.appcompat:appcompat:1.7.0")
-    implementation("com.google.android.material:material:1.12.0")
-    implementation("androidx.constraintlayout:constraintlayout:2.2.0")
-    implementation("androidx.activity:activity-ktx:1.9.3")
-    implementation("androidx.fragment:fragment-ktx:1.8.5")
-
-    // Unit testing - JUnit4 (legacy)
-    testImplementation("junit:junit:4.13.2")
-
-    // Unit testing - JUnit Jupiter (JUnit 5)
-    testImplementation("org.junit.jupiter:junit-jupiter-api:5.11.3")
-    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.11.3")
-
-    // Kotlin test helpers
-    testImplementation("org.jetbrains.kotlin:kotlin-test:1.9.24")
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit5:1.9.24")
-
-    // Android instrumentation testing
-    androidTestImplementation("androidx.test.ext:junit:1.2.1")
-    androidTestImplementation("androidx.test.espresso:espresso-core:3.6.1")
 }

@@ -1,10 +1,18 @@
-rootProject.name = "android-root-include-alias"
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
 
-include(":app")
-project(":app").projectDir = file("content-rating-display-213568/vod_content_rating_frontend/app")
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
 
-include(":list")
-project(":list").projectDir = file("content-rating-display-213568/vod_content_rating_frontend/list")
-
-include(":utilities")
-project(":utilities").projectDir = file("content-rating-display-213568/vod_content_rating_frontend/utilities")
+rootProject.name = "workspace-bridge-root-android"
+includeBuild("content-rating-display-213568/vod_content_rating_frontend")

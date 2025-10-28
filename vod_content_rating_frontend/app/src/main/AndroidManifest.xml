@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
     <application
         android:allowBackup="true"
         android:label="@string/app_name"
@@ -7,13 +8,99 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ExecutiveGray">
+
+        <!-- Launcher -> ÍndiceActivity -->
         <activity
-            android:name=".ui.MainActivity"
+            android:name=".ui.IndiceActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <!-- Optional deep link to open index directly -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="app" android:host="rating" android:path="/index" />
+            </intent-filter>
+        </activity>
+
+        <!-- Alternate Launcher for discovery tools -->
+        <activity
+            android:name=".ui.AliasMainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
+        <!-- Instrucciones -->
+        <activity
+            android:name=".ui.InstruccionesActivity"
+            android:exported="false" />
+
+        <!-- Playback placeholder -->
+        <activity
+            android:name=".ui.PlaybackActivity"
+            android:exported="false" />
+
+        <!-- Post-Playback Rating screen (also accepts direct deep link for preview robustness) -->
+        <activity
+            android:name=".ui.PostPlaybackRatingActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="app" android:host="rating" android:path="/show" />
+            </intent-filter>
+        </activity>
+
+        <!-- Optional: Home shortcut preview screen -->
+        <activity
+            android:name=".ui.HomeShortcutActivity"
+            android:exported="false" />
+
+        <!-- Developer quick launcher for rating preview -->
+        <activity
+            android:name=".ui.DevLaunchRatingActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+
+        <!-- Deep link launcher: app://rating/show -->
+        <activity
+            android:name=".ui.DeepLinkLauncherActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="app" android:host="rating" android:path="/show" />
+            </intent-filter>
+        </activity>
+
+        <!-- Deep link alias: app://rating/postplay -->
+        <activity
+            android:name=".ui.DeepLinkPostplayAliasActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="app" android:host="rating" android:path="/postplay" />
+            </intent-filter>
+        </activity>
+
+        <!-- QA helper to start playback directly -->
+        <activity
+            android:name=".ui.QaStartPlaybackActivity"
+            android:exported="false" />
     </application>
 </manifest>

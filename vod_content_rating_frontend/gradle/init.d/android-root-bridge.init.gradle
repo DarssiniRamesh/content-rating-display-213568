@@ -1,8 +1,9 @@
 allprojects {
-    // Marker to assist analyzers; no-op for actual builds
+    // Marker for discovery tools; informs where the Android workspace lives
     ext.set("androidRootBridge", "content-rating-display-213568/vod_content_rating_frontend")
 }
-
 gradle.settingsEvaluated { settings ->
-    settings.rootProject.name = settings.rootProject.name ?: "workspace-root"
+    if (settings.rootProject.name == null || settings.rootProject.name!!.isBlank()) {
+        settings.rootProject.name = "workspace-root"
+    }
 }

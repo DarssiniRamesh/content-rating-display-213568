@@ -53,6 +53,22 @@
                 android:text="@string/rating_title" />
         </LinearLayout>
 
+        <!-- Static badge for preview; dynamic code may insert another badge below invitation -->
+        <TextView
+            android:id="@+id/ratingBadgeStatic"
+            style="@style/EG.Body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/eg_space_sm"
+            android:paddingLeft="@dimen/eg_space_sm"
+            android:paddingRight="@dimen/eg_space_sm"
+            android:paddingTop="@dimen/eg_space_xs"
+            android:paddingBottom="@dimen/eg_space_xs"
+            android:text="@string/rating_label_pg13"
+            android:textStyle="bold"
+            android:textColor="@color/eg_surface"
+            android:background="@color/eg_primary" />
+
         <!-- Description / invitation -->
         <TextView
             android:id="@+id/invitationCopy"
@@ -61,6 +77,70 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/eg_space_md"
             android:text="@string/rating_invite" />
+
+        <!-- Static descriptors header+list anchors (populated at runtime if provided) -->
+        <TextView
+            android:id="@+id/descriptorsHeader"
+            style="@style/EG.Body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/eg_space_md"
+            android:text="@string/rating_descriptors_header"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/descriptorsList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone" />
+
+        <!-- Static badge/code+label row (updated at runtime) -->
+        <TextView
+            android:id="@+id/ratingBadgeStatic"
+            style="@style/EG.Body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/eg_space_md"
+            android:background="@color/eg_primary"
+            android:paddingLeft="@dimen/eg_space_sm"
+            android:paddingRight="@dimen/eg_space_sm"
+            android:paddingTop="@dimen/eg_space_xs"
+            android:paddingBottom="@dimen/eg_space_xs"
+            android:text="@string/rating_badge_placeholder"
+            android:textColor="@color/eg_surface" />
+
+        <!-- Advisory body (populated at runtime) -->
+        <TextView
+            android:id="@+id/advisoryBody"
+            style="@style/EG.Body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/eg_space_sm"
+            android:text="@string/rating_description_pg13" />
+
+        <!-- Descriptors header and list -->
+        <TextView
+            android:id="@+id/descriptorsHeader"
+            style="@style/EG.Body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/eg_space_md"
+            android:text="@string/rating_descriptors_header" />
+
+        <LinearLayout
+            android:id="@+id/descriptorsList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <!-- Optional descriptors static container (populated dynamically in Activity) -->
+        <LinearLayout
+            android:id="@+id/descriptorsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone" />
 
         <!-- Countdown row -->
         <LinearLayout
@@ -86,6 +166,15 @@
                 android:layout_marginStart="@dimen/eg_space_sm"
                 android:text="10s" />
         </LinearLayout>
+
+        <!-- Countdown hint -->
+        <TextView
+            android:id="@+id/countdownHelp"
+            style="@style/EG.Body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/eg_space_xs"
+            android:text="@string/rating_countdown_help" />
 
         <!-- Actions -->
         <LinearLayout

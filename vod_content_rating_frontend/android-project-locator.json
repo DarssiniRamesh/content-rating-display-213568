@@ -1,8 +1,8 @@
 {
   "android_project_root": "content-rating-display-213568/vod_content_rating_frontend",
   "primary_module": ":app",
-  "build_commands": [
-    "cd content-rating-display-213568/vod_content_rating_frontend && ./gradlew :app:assembleDebug",
-    "./gradlew :appRoot:assembleDebug"
-  ]
+  "gradle_wrapper": "content-rating-display-213568/vod_content_rating_frontend/gradlew",
+  "settings": "content-rating-display-213568/vod_content_rating_frontend/settings.gradle.dcl",
+  "entry_activity": "org.example.app.ui.IndiceActivity",
+  "assemble_task": ":app:assembleDebug"
 }

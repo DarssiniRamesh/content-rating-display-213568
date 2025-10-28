@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="indice_preview_guidance">Preview shows a rating badge, code/label, advisory text, descriptors list (e.g., Violence, Language), and a countdown before Acknowledge is enabled.</string>
+</resources>

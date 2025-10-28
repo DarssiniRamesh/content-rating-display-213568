@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/indiceRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/eg_background"
+    android:orientation="vertical"
+    android:padding="@dimen/eg_space_lg">
+
+    <TextView
+        android:id="@+id/indiceTitle"
+        style="@style/EG.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_indice" />
+
+    <TextView
+        android:id="@+id/indiceIntro"
+        style="@style/EG.Body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/eg_space_md"
+        android:text="@string/indice_intro_body" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonOpenRatingQA"
+        style="@style/Widget.EG.Button.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/eg_space_xl"
+        android:text="@string/qa_start_playback" />
+</LinearLayout>

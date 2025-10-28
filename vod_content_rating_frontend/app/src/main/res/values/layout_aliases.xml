@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Alias so 'activity_indice' references resolve to preview layout in the app -->
+    <item name="activity_indice" type="layout">@layout/activity_indice_preview</item>
+</resources>
