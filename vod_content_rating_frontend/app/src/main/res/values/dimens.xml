@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Spacing tokens -->
+    <dimen name="eg_space_xs">4dp</dimen>
+    <dimen name="eg_space_sm">8dp</dimen>
+    <dimen name="eg_space_md">16dp</dimen>
+    <dimen name="eg_space_lg">24dp</dimen>
+    <dimen name="eg_space_xl">32dp</dimen>
+    <dimen name="eg_space_2xl">40dp</dimen>
+
+    <!-- Layout tokens -->
+    <dimen name="eg_card_corner">16dp</dimen>
+    <dimen name="eg_card_elevation">6dp</dimen>
+    <dimen name="eg_icon_size">24dp</dimen>
+</resources>

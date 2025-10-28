@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base Material theme using Executive Gray palette -->
+    <style name="Theme.ExecutiveGray" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Colors -->
+        <item name="colorPrimary">@color/eg_primary</item>
+        <item name="colorPrimaryContainer">@color/eg_secondary</item>
+        <item name="colorOnPrimary">@color/eg_surface</item>
+        <item name="colorSecondary">@color/eg_secondary</item>
+        <item name="colorError">@color/eg_error</item>
+        <item name="android:statusBarColor">@color/eg_primary</item>
+        <item name="android:navigationBarColor">@color/eg_primary</item>
+        <item name="android:windowBackground">@color/eg_background</item>
+
+        <!-- Typography -->
+        <item name="textAppearanceHeadline6">@style/TextAppearance.EG.Title</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.EG.Body</item>
+        <item name="textAppearanceButton">@style/TextAppearance.EG.Button</item>
+
+        <!-- Shape -->
+        <item name="shapeAppearanceSmallComponent">@style/Shape.EG.Small</item>
+        <item name="shapeAppearanceMediumComponent">@style/Shape.EG.Medium</item>
+        <item name="shapeAppearanceLargeComponent">@style/Shape.EG.Large</item>
+
+        <!-- Buttons -->
+        <item name="materialButtonStyle">@style/Widget.EG.Button.Primary</item>
+    </style>
+
+    <!-- Button styles -->
+    <style name="Widget.EG.Button.Primary" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/eg_primary</item>
+        <item name="rippleColor">@color/eg_secondary</item>
+        <item name="android:textColor">@color/eg_surface</item>
+        <item name="shapeAppearance">@style/Shape.EG.Medium</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <style name="Widget.EG.Button.Secondary" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/eg_secondary</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="android:textColor">@color/eg_text</item>
+        <item name="shapeAppearance">@style/Shape.EG.Medium</item>
+    </style>
+
+    <!-- Shape tokens -->
+    <style name="Shape.EG.Small" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">6dp</item>
+    </style>
+    <style name="Shape.EG.Medium" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10dp</item>
+    </style>
+    <style name="Shape.EG.Large" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+</resources>
